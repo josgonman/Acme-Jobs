@@ -7,14 +7,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import acme.entities.offers.Offer;
+import acme.entities.offers2.Offer2;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Anonymous;
 
 @Controller
 @RequestMapping("/anonymous/offer/")
-public class AnonymousOfferController extends AbstractController<Anonymous, Offer> {
+public class AnonymousOfferController extends AbstractController<Anonymous, Offer2> {
 
 	// Internal state
 
