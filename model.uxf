@@ -437,6 +437,7 @@ Offer2
   <element>
     <id>UMLClass</id>
     <coordinates>
+<<<<<<< Updated upstream
       <x>882</x>
       <y>651</y>
       <w>399</w>
@@ -448,6 +449,8 @@ Offer2
   <element>
     <id>UMLClass</id>
     <coordinates>
+=======
+>>>>>>> Stashed changes
       <x>952</x>
       <y>378</y>
       <w>210</w>
