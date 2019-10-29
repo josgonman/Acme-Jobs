@@ -12,17 +12,32 @@
 
 package acme.framework.utilities;
 
+import java.util.Arrays;
+import java.util.List;
+
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.logout.LogoutHandler;
 
-import acme.framework.helpers.PrincipalHelper;
+import acme.framework.helpers.StringHelper;
 
 public final class RememberMeLogoutHandler implements LogoutHandler {
 
-	// LogoutHandler interface ------------------------------------------------
+	// Internal state ---------------------------------------------------------
+
+	private final List<String> cookiesToClear;
+
+
+	// Constructors -----------------------------------------------------------
+
+	public RememberMeLogoutHandler(final String... cookiesToClear) {
+		assert !StringHelper.someBlank(cookiesToClear);
+
+		this.cookiesToClear = Arrays.asList(cookiesToClear);
+	}
 
 	@Override
 	public void logout(final HttpServletRequest request, final HttpServletResponse response, final Authentication authentication) {
@@ -30,6 +45,16 @@ public final class RememberMeLogoutHandler implements LogoutHandler {
 		assert response != null;
 		assert authentication != null;
 
-		PrincipalHelper.handleSignOut();
+		Cookie cookie;
+		String cookiePath;
+
+		for (String cookieName : this.cookiesToClear) {
+			cookiePath = request.getContextPath();
+
+			cookie = new Cookie(cookieName, null);
+			cookie.setPath(cookiePath);
+			cookie.setMaxAge(0);
+			response.addCookie(cookie);
+		}
 	}
 }

@@ -10,14 +10,14 @@
 
 # master.banner.welcome #######################################################
 
-master.banner.background = #000000 
+master.banner.background = #000000
 
 ﻿# master.welcome ##############################################################
 
 master.welcome.title = ¡Bienvenidos!
 master.welcome.text = \
-	Bienvenidos a Acme Stater!  Nunca antes ha sido tan sencillo desarrollar un \
-	proyecto y hacerlo funcionar.
+	Bienvenidos a Acme Jobs!  Nunca antes ha sido tan sencillo encontrar un \
+	buen trabajo y que sea bien pagado.
 
 # master.menu #################################################################
 
@@ -29,7 +29,27 @@ master.menu.sign-out = Salir
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anónimo
-master.menu.anonymous.favourite-link = Enlace favorito
+master.menu.anonymous.favourite-linkA = Enlace al link favorito de Alejandro Fuentes Gómez
+master.menu.anonymous.favourite-linkB = Enlace al link favorito de Pedro Padilla Molina
+master.menu.anonymous.favourite-linkC = Enlace al link favorito de Jose Manuel Gonzalez
+master.menu.anonymous.favourite-linkD = Enlace al link favorito de Miguel Ponce Melero
+
+ 
+master.menu.anonymous.talklist = Fuentes Boletín: Lista Conversaciones
+master.menu.anonymous.talk = Fuentes: Boletín: Crear conversación
+
+master.menu.anonymous.shout = ¡Gritar!
+master.menu.anonymous.shoutlist = Lista de Gritos
+
+master.menu.anonymous.listPlayersPedro = Padilla Boletín: Lista Jugadores NBA
+master.menu.anonymous.createPlayersPedro = Padilla Boletín: Crear Jugadores NBA
+
+master.menu.anonymous.offer = Gonzalez Boletín: Crear Oferta
+master.menu.anonymous.offerList = Gonzalez Boletín: Lista Ofertas
+
+master.menu.anonymous.book = Boletin Miguel: Crear Libro
+master.menu.anonymous.bookList = Miguel's Bulletin: Lista de Libros
+
 
 # master.menu.administrator ###################################################
 
@@ -72,10 +92,10 @@ master.footer.label.spanish = Español
 
 master.company.title = La compañía
 master.company.text = \
-	Starter Project, Inc. es una compañía fictícia que proporciona un proyecto \
-	plantilla para los estudiantes de la asignatura Diseño y Pruebas, en el Grado \
+	Acme Jobs, la forma más fácil de encontrar un buen trabajo. \
+	Este es un proyecto de un grupo de estudiantes que cursan \
 	en Ingeniería del Software de la Universidad de Sevilla.
-master.company.name = Starter Project, Inc.
+master.company.name = Acme Jobs.
 master.company.address = Calle, número, Ciudad, Estado, País
 master.company.phone = +000 123 456
 master.company.email = contact@acme.com

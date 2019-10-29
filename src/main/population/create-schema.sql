@@ -20,6 +20,15 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `book` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `moment` datetime(6),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `consumer` (
        `id` integer not null,
         `version` integer not null,
@@ -29,12 +38,50 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `offer` (
+       `id` integer not null,
+        `version` integer not null,
+        `company` varchar(255),
+        `job` varchar(255),
+        `moment` datetime(6),
+        `salary` double precision not null,
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `player` (
+       `id` integer not null,
+        `version` integer not null,
+        `player` varchar(255),
+        `quote` varchar(255),
+        `team` varchar(255),
+        `team_last_season` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `provider` (
        `id` integer not null,
         `version` integer not null,
         `user_account_id` integer,
         `company` varchar(255),
         `sector` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `shout` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `moment` datetime(6),
+        `text` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `talk` (
+       `id` integer not null,
+        `version` integer not null,
+        `age` integer,
+        `employer` varchar(255),
+        `moment` datetime(6),
         primary key (`id`)
     ) engine=InnoDB;
 

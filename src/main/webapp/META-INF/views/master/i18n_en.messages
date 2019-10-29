@@ -16,8 +16,8 @@ master.banner.background = #000000
 
 master.welcome.title = Welcome!
 master.welcome.text = \
-	Welcome to Starter Project! Never before has it bee easier to get your \
-	project up and running!
+	Welcome to Acme Jobs! The easiest way to start in a nice \
+	and well paid job!
 
 # master.menu #################################################################
 
@@ -29,7 +29,24 @@ master.menu.sign-out = Sign out
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
-master.menu.anonymous.favourite-link = Favourite link
+master.menu.anonymous.favourite-linkA = Alejandro Fuentes Gómez's favourite link
+master.menu.anonymous.favourite-linkB = Pedro Padilla Molina´s favourite link
+master.menu.anonymous.favourite-linkC = Jose Manuel Gonzalez's favourite link
+master.menu.anonymous.favourite-linkD = Miguel Ponce Melero's favourite link
+
+master.menu.anonymous.shout = Shout!
+master.menu.anonymous.shoutlist = Shout List
+master.menu.anonymous.listPlayersPedro = Padilla's Bulletin: List NBA Players
+master.menu.anonymous.createPlayersPedro = Padilla's Bulletin: Create NBA Players
+
+master.menu.anonymous.talklist = Fuentes Bulletin: List talks
+master.menu.anonymous.talk = Fuentes Bulletin: Create a talk
+
+master.menu.anonymous.offer = Gonzalez's Bulletin: Offer Create
+master.menu.anonymous.offerList = Gonzalez's Bulletin: Offers List
+
+master.menu.anonymous.book = Miguel's Bulletin: Book Create
+master.menu.anonymous.bookList = Miguel's Bulletin: Books List
 
 # master.menu.administrator ###################################################
 
@@ -72,10 +89,10 @@ master.footer.label.spanish = Spanish
 
 master.company.title = La compañía
 master.company.text = \
-	Starter Project, Inc. is a fictitious fictitious company that provides a \
-	starter project for the students of the Design and Testing subject of the \
-	Software Engineering Curriculum of the University of Sevilla.
-master.company.name = Starter Project, Inc.
+	Acme Jobs, the easiest way to find a nice job. \
+	This is a project of a group of students that are studying \
+	Software Informatic Engineering in the University of Sevilla.
+master.company.name = Acme Jobs.
 master.company.address = Number Street, City, State, Country
 master.company.phone = +000 123 456
 master.company.email = contact@acme.com

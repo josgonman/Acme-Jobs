@@ -27,27 +27,31 @@ public class PrinterHelper {
 	// Business methods -------------------------------------------------------
 
 	public static void print(final Collection<?> objects) {
-		// assert objects is nullable and can contain nulls
+		assert !CollectionHelper.someNull(objects);
 
-		PrinterHelper.print(System.out, "", objects);
+		for (final Object object : objects) {
+			PrinterHelper.print(System.out, "", object);
+		}
 	}
 
 	public static void print(final Object object) {
-		// assert object is nullable
+		assert object != null;
 
 		PrinterHelper.print(System.out, "", object);
 	}
 
 	public static void print(final PrintStream writer, final Collection<?> objects) {
 		assert writer != null;
-		// assert objects is nullable and can contain nulls
+		assert !CollectionHelper.someNull(objects);
 
-		PrinterHelper.print(writer, "", objects);
+		for (final Object object : objects) {
+			PrinterHelper.print(writer, "", object);
+		}
 	}
 
 	public static void print(final PrintStream writer, final Object object) {
 		assert writer != null;
-		// assert object is nullable
+		assert object != null;
 
 		PrinterHelper.print(writer, "", object);
 	}
@@ -55,21 +59,17 @@ public class PrinterHelper {
 	public static void print(final PrintStream writer, final String marker, final Collection<?> objects) {
 		assert writer != null;
 		assert marker != null;
-		// assert objects is nullable and can contain nulls
+		assert !CollectionHelper.someNull(objects);
 
-		if (objects == null) {
-			PrinterHelper.print(writer, marker, null);
-		} else {
-			for (final Object object : objects) {
-				PrinterHelper.print(writer, marker, object);
-			}
+		for (final Object object : objects) {
+			PrinterHelper.print(writer, marker, object);
 		}
 	}
 
 	public static void print(final PrintStream writer, final String marker, final Object object) {
 		assert writer != null;
 		assert marker != null;
-		// assert object is nullable
+		assert object != null;
 
 		String text;
 		StringBuffer buffer;
@@ -197,7 +197,7 @@ public class PrinterHelper {
 		}
 
 		buffer.append(left);
-		buffer.append(value == null ? "null" : value);
+		buffer.append(value);
 		buffer.append(right);
 	}
 

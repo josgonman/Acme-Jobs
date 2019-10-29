@@ -19,8 +19,45 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/"/>
-		</acme:menu-option>
+		<!-- master.menu.anonymous.favourite-link Link Favorito Alejandro-->
+			<acme:menu-suboption code="master.menu.anonymous.favourite-linkA" action="https://github.com/alefuegom"/>
+		<!-- master.menu.anonymous.favourite-link Link Favorito Pedro-->
+			<acme:menu-suboption code="master.menu.anonymous.favourite-linkB" action="https://watch.nba.com"/>
+		<!-- master.menu.anonymous.favourite-link Link Link Favorito Jose Manuel -->
+			<acme:menu-suboption code="master.menu.anonymous.favourite-linkC" action="https://es.stackoverflow.com/"/>	
+		<!-- master.menu.anonymous.favourite-link Link Link Favorito Miguel -->
+			<acme:menu-suboption code="master.menu.anonymous.favourite-linkD" action="https://www.informatica.us.es/"/>	
+			<acme:menu-separator/>
+	
+			<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.shoutlist" action="/anonymous/shout/list"/>
+			
+			<acme:menu-separator/>
+			
+			<acme:menu-suboption code="master.menu.anonymous.talk" action="/anonymous/talk/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.talklist" action="/anonymous/talk/list"/>
+			
+			<acme:menu-separator/>
+			
+			<!-- master.menu.anonymous.createPlayers Crear un Jugador -->
+			<acme:menu-suboption code="master.menu.anonymous.createPlayersPedro" action="/anonymous/player/create"/>
+		<!-- master.menu.anonymous.listPlayers Listar Jugadores -->
+			<acme:menu-suboption code="master.menu.anonymous.listPlayersPedro" action="/anonymous/player/list"/>
+			
+			<acme:menu-separator/>
+			
+			<acme:menu-suboption code="master.menu.anonymous.offer" action="/anonymous/offer/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.offerList" action="/anonymous/offer/list"/>
+			
+			<acme:menu-separator/>
+			
+			<acme:menu-suboption code="master.menu.anonymous.book" action="/anonymous/book/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.bookList" action="/anonymous/book/list"/>
+			
+			
+		
+	</acme:menu-option>
+		
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>

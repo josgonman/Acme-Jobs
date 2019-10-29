@@ -23,6 +23,8 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.http.HttpStatus;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.Assert;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -31,6 +33,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import acme.framework.entities.Administrator;
 import acme.framework.helpers.PrincipalHelper;
+import acme.framework.utilities.RememberMeLogoutHandler;
 
 @Controller
 public class MasterController implements ApplicationContextAware {
@@ -88,8 +91,22 @@ public class MasterController implements ApplicationContextAware {
 
 	// Sign out ---------------------------------------------------------------
 
-	// HINT: Note that there's no GET/POST master/sign-out controller since the log
-	// HINT+ out process is controlled by the WebSecurityConfigurerAdapter
+	@GetMapping("/master/sign-out")
+	public String signOut(final HttpServletRequest request, final HttpServletResponse response) {
+		Authentication authentication;
+		final RememberMeLogoutHandler handler;
+
+		authentication = SecurityContextHolder.getContext().getAuthentication();
+		handler = new RememberMeLogoutHandler("JSESSIONID", "remember");
+		handler.logout(request, response, authentication);
+		authentication.setAuthenticated(false);
+		PrincipalHelper.handleSignOut();
+
+		return "redirect:/master/welcome";
+	}
+
+	// HINT: Note that there's no POST anonymous/sign-out controller since it suffices
+	// HINT+ to process the get request and then redirect to the master/welcome view.
 
 	// Footer -----------------------------------------------------------------
 

@@ -23,11 +23,9 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import acme.framework.services.AuthenticationService;
 import acme.framework.utilities.ExtendedSecurityExpressionHandler;
-import acme.framework.utilities.RememberMeLogoutHandler;
 
 @Configuration
 @EnableWebSecurity
@@ -58,13 +56,11 @@ public class AuthenticationConfiguration extends WebSecurityConfigurerAdapter {
 			.defaultSuccessUrl("/");
 
 		http.logout() //
-			.permitAll() //			
-			.logoutRequestMatcher(new AntPathRequestMatcher("/master/sign-out")) //
-			.logoutSuccessUrl("/master/welcome") //
-			.invalidateHttpSession(true) //
+			.permitAll() //
+			.logoutUrl("/j_spring_security_logout") //
 			.clearAuthentication(true) //
-			.deleteCookies("JSESSIONID", "remember") //
-			.addLogoutHandler(new RememberMeLogoutHandler());
+			.invalidateHttpSession(true) //
+			.logoutSuccessUrl("/");
 
 		// TODO: move the key to the configuration file!
 		http.rememberMe() //

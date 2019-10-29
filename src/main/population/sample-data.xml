@@ -16,5 +16,106 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<import resource="conversion-service.xml" />
+	
+	<!--  Shouts -->
+	
+	<bean id="shout01" class="acme.entities.shouts.Shout">
+		<property name="author" value="Jose Rodriguez"/>
+		<property name="text" value="I'm sad!"/>
+		<property name="moment" value="2019/09/09 10:00"/>
+	</bean>
 
+	<bean id ="shout02" class="acme.entities.shouts.Shout">
+		<property name ="author" value="Jane Doe"/>
+		<property name ="text" value="I'm the master of my room!"/>
+		<property name ="moment" value="2019/08/09 15:55"/>
+	</bean>
+	
+	<bean id ="shout03" class="acme.entities.shouts.Shout">
+		<property name ="author" value="Foo Bar"/>
+		<property name ="text" value="Just turning 20!"/>
+		<property name ="moment" value="2019/09/07 00:00"/>
+	</bean>
+	
+		<bean id ="talk01" class="acme.entities.talk.Talk">
+		<property name ="employer" value="Leslie Jhonson"/>
+		<property name ="age" value="23" />
+		<property name ="moment" value="2019/09/09 10:00"/>
+	</bean>
+	
+	<bean id ="talk02" class="acme.entities.talk.Talk">
+			<property name ="employer" value="Pedro Picapiedra"/>
+		<property name ="age" value="200"/>
+		<property name ="moment" value="2019/09/09 01:00"/>
+	</bean>
+	
+	<bean id ="talk03" class="acme.entities.talk.Talk">
+			<property name ="employer" value="Jack Sparrow"/>
+		<property name ="age" value="43"/>
+		<property name ="moment" value="2019/07/09 10:00"/>
+	</bean>
+
+	
+	<bean id="player01" class="acme.entities.players.Player">
+		<property name="player" value="Stephen Curry"/>
+		<property name="team" value="Golden State Warriors"/>
+		<property name="teamLastSeason" value="Golden State Warriors"/>
+		<property name="quote" value="Success is not an accident, success is actually a choice"/>
+	</bean>
+
+	<bean id="player02" class="acme.entities.players.Player">
+		<property name="player" value="Lebron James"/>
+		<property name="team" value="LA Lakers"/>
+		<property name="teamLastSeason" value="Cleveland Cavaliers"/>
+		<property name="quote" value="You can't be afraid to fail"/>
+	</bean>
+	
+	<bean id="player03" class="acme.entities.players.Player">
+		<property name="player" value="Kyrie Irving"/>
+		<property name="team" value="Brookyln Nets"/>
+		<property name="teamLastSeason" value="Boston Celtics"/>
+		<property name="quote" value="Everybody in the NBA is good. And then you have the really good ones and the great ones"/>
+	</bean>	
+	
+	<bean id="offer01" class="acme.entities.offers.Offer">
+		<property name="company" value="Servitesa"/>
+		<property name="job" value="Instalador de radios para coches"/>
+		<property name="salary" value="800.00"/>
+		<property name="moment" value="2019/09/07 14:00"/>
+	</bean>
+	
+	<bean id="offer02" class="acme.entities.offers.Offer">
+		<property name="company" value="Maderas Pancho"/>
+		<property name="job" value="Ebanista"/>
+		<property name="salary" value="1200.00"/>
+		<property name="moment" value="2019/09/23 16:00"/>
+	</bean>		
+	
+	<bean id="offer03" class="acme.entities.offers.Offer">
+		<property name="company" value="Kildare Catering"/>
+		<property name="job" value="Camarero"/>
+		<property name="salary" value="900.00"/>
+		<property name="moment" value="2019/10/08 11:30"/>
+	</bean>	
+	
+	<bean id="book01" class="acme.entities.books.Book">
+		<property name="author" value="George RR Martin"/>
+		<property name="title" value="A Game Of Thrones"/>
+		<property name="moment" value="2019/09/09 10:00"/>
+	</bean>
+	
+	<bean id="book02" class="acme.entities.books.Book">
+		<property name="author" value="Suzanne Collins"/>
+		<property name="title" value="The Hunger Games"/>
+		<property name="moment" value="2019/09/08 11:00"/>
+	</bean>
+	
+	<bean id="book03" class="acme.entities.books.Book">
+		<property name="author" value="Michael Ende"/>
+		<property name="title" value="The NeverEnding Story"/>
+		<property name="moment" value="2019/09/07 12:00"/>
+	</bean>
+	
 </beans>
+
+
