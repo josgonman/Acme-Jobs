@@ -452,9 +452,45 @@ Company Records
 +link: String{NotBlank, URL}
 +phone: Integer{NotBlank, Pattern(regexp)}
 +email: String{NotBlank, Email}
-+incorporated: enum
++incorporated: Boolean{NotBlank}
 +stars: Integer{NotBlank, Range(0, 5)}
 </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>973</x>
+      <y>518</y>
+      <w>182</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+InvestorRecords
+--
++name:String{NotBlank}
++sector: String{NotBlank}
++investingStatement: String{NotBlank}
++stars: Integer{NotBlank,Range(0,5)}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>938</x>
+      <y>203</y>
+      <w>217</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Challenges
+--
++title:String{NotBlank}
++moment: Date{Temporal(TIMESTAMP), Past}
++deadline: Date{Temporal(TIMESTAMP),Future}
++goal: String{NotBlank}
++reward: String{NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
