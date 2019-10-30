@@ -399,7 +399,7 @@ Announcement
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>700</x>
+      <x>707</x>
       <y>378</y>
       <w>238</w>
       <h>119</h>
@@ -431,6 +431,29 @@ Offer
 +deadline: Date{Temporal(TIMESTAMP),Future}
 +description: String{NotBlank}
 +reward: Money
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>966</x>
+      <y>371</y>
+      <w>189</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Company Records
+--
++name:String{NotBlank}
++sector: String{NotBlank}
++ceo: String{NotBlank}
++activities: String{NotBlank}
++link: String{NotBlank, URL}
++phone: Integer{NotBlank, Pattern(regexp)}
++email: String{NotBlank, Email}
++incorporated: enum
++stars: Integer{NotBlank, Range(0, 5)}
 </panel_attributes>
     <additional_attributes/>
   </element>
