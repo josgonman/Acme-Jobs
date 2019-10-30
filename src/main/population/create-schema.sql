@@ -6,6 +6,16 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `announcement` (
+       `id` integer not null,
+        `version` integer not null,
+        `description` varchar(255),
+        `link` varchar(255),
+        `moment` datetime(6),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `anonymous` (
        `id` integer not null,
         `version` integer not null,
@@ -29,6 +39,20 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `company_records` (
+       `id` integer not null,
+        `version` integer not null,
+        `activities` varchar(255),
+        `ceo` varchar(255),
+        `email` varchar(255),
+        `link` varchar(255),
+        `name` varchar(255),
+        `phone` integer,
+        `sector` varchar(255),
+        `stars` integer,
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `consumer` (
        `id` integer not null,
         `version` integer not null,
@@ -39,6 +63,19 @@
     ) engine=InnoDB;
 
     create table `offer` (
+       `id` integer not null,
+        `version` integer not null,
+        `deadline` datetime(6),
+        `description` varchar(255),
+        `moment` datetime(6),
+        `reward_amount` double precision,
+        `reward_currency` varchar(255),
+        `ticker` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `offer2` (
        `id` integer not null,
         `version` integer not null,
         `company` varchar(255),

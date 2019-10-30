@@ -50,12 +50,20 @@ master.menu.anonymous.offerList = Gonzalez Boletín: Lista Ofertas
 master.menu.anonymous.book = Boletin Miguel: Crear Libro
 master.menu.anonymous.bookList = Miguel's Bulletin: Lista de Libros
 
+master.menu.anonymous.announcement = Lista de anuncios;
+
+# master.menu.authenticated ###################################################
+
+master.menu.authenticated = Autenticado/a
+master.menu.authenticated.announcement = Lista de anuncios
+master.menu.authenticated.offer = Lista de Ofertas
 
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
+master.menu.administrator.announcement = Lista de anuncios
 
 # master.menu.provider ########################################################
 

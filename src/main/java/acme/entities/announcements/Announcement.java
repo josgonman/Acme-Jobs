@@ -1,5 +1,5 @@
 
-package acme.entities.offers2;
+package acme.entities.announcements;
 
 import java.util.Date;
 
@@ -9,6 +9,8 @@ import javax.persistence.TemporalType;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Past;
 
+import org.hibernate.validator.constraints.URL;
+
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -16,24 +18,21 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Offer2 extends DomainEntity {
-
-	// Serialisation identifier -------------------------------
+public class Announcement extends DomainEntity {
 
 	private static final long	serialVersionUID	= 1L;
 
-	//Attributes -----------------------------------------
-
 	@NotBlank
-	private String				company;
-
-	@NotBlank
-	private String				job;
+	private String				title;
 
 	@Temporal(TemporalType.TIMESTAMP)
 	@Past
 	private Date				moment;
 
-	private double				salary;
+	@URL
+	private String				link;
+
+	@NotBlank
+	private String				description;
 
 }

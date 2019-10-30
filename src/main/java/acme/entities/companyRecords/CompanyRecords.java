@@ -4,7 +4,6 @@ package acme.entities.companyRecords;
 import javax.persistence.Entity;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Range;
 import org.hibernate.validator.constraints.URL;
@@ -37,6 +36,7 @@ public class CompanyRecords extends DomainEntity {
 	private String				link;
 
 	@NotBlank
+
 	@Pattern(regexp = "+" + "\\d\\d\\d " + "(\\d\\d\\d\\d)" + "\\d\\d\\d\\d\\d\\d")
 	private Integer				phone;
 
