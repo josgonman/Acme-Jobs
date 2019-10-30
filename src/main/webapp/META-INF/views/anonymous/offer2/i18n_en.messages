@@ -1,0 +1,11 @@
+anonymous.offer2.form.label.company = Company
+anonymous.offer2.form.label.job = Job
+anonymous.offer2.form.label.salary = Salary
+
+anonymous.offer2.form.button.create = Create
+anonymous.offer2.form.button.return = Return
+
+anonymous.offer2.list.label.moment = Moment
+anonymous.offer2.list.label.company = Company
+anonymous.offer2.list.label.job = Job
+anonymous.offer2.list.label.salary = Salary

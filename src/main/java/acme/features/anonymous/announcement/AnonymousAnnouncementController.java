@@ -1,5 +1,5 @@
 
-package acme.features.anonymous.offer;
+package acme.features.anonymous.announcement;
 
 import javax.annotation.PostConstruct;
 
@@ -7,29 +7,25 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import acme.entities.offers.Offer;
+import acme.entities.announcements.Announcement;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Anonymous;
 
 @Controller
-@RequestMapping("/anonymous/offer/")
-public class AnonymousOfferController extends AbstractController<Anonymous, Offer> {
-
-	// Internal state
+@RequestMapping("/anonymous/announcement/")
+public class AnonymousAnnouncementController extends AbstractController<Anonymous, Announcement> {
 
 	@Autowired
-	private AnonymousOfferListService	listService;
+	private AnonymousAnnouncementListService	listService;
 
 	@Autowired
-	private AnonymousOfferCreateService	createService;
+	private AnonymousAnnouncementShowService	showService;
 
-
-	//Constructors
 
 	@PostConstruct
 	private void initialise() {
 		super.addBasicCommand(BasicCommand.LIST, this.listService);
-		super.addBasicCommand(BasicCommand.CREATE, this.createService);
+		super.addBasicCommand(BasicCommand.SHOW, this.showService);
 	}
 }

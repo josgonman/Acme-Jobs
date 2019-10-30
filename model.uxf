@@ -431,7 +431,7 @@ Offer
 +deadline: Date{Temporal(TIMESTAMP),Future}
 +description: String{NotBlank}
 +reward: Money
-</panel_attributes>
++ticker:String(NotBlank)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

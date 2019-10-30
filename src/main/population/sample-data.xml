@@ -77,21 +77,23 @@
 		<property name="quote" value="Everybody in the NBA is good. And then you have the really good ones and the great ones"/>
 	</bean>	
 	
-	<bean id="offer01" class="acme.entities.offers.Offer">
+	<bean id="offer201" class="acme.entities.offers2.Offer2">
 		<property name="company" value="Servitesa"/>
 		<property name="job" value="Instalador de radios para coches"/>
 		<property name="salary" value="800.00"/>
 		<property name="moment" value="2019/09/07 14:00"/>
 	</bean>
 	
-	<bean id="offer02" class="acme.entities.offers.Offer">
+	<!-- JM Bulletin -->
+	
+	<bean id="offer202" class="acme.entities.offers2.Offer2">
 		<property name="company" value="Maderas Pancho"/>
 		<property name="job" value="Ebanista"/>
 		<property name="salary" value="1200.00"/>
 		<property name="moment" value="2019/09/23 16:00"/>
 	</bean>		
 	
-	<bean id="offer03" class="acme.entities.offers.Offer">
+	<bean id="offer203" class="acme.entities.offers2.Offer2">
 		<property name="company" value="Kildare Catering"/>
 		<property name="job" value="Camarero"/>
 		<property name="salary" value="900.00"/>
@@ -116,6 +118,57 @@
 		<property name="moment" value="2019/09/07 12:00"/>
 	</bean>
 	
+	<!-- Announcement -->
+	
+	<bean id="announcement01" class="acme.entities.announcements.Announcement">
+		<property name="title" value="Sample announcement 01"/>
+		<property name="moment" value="2019/10/10 10:35"/>
+		<property name="link"><null/></property>
+		<property name="description" value="This is the description of a sample announcement"/>
+	</bean>
+	
+	<bean id="announcement02" class="acme.entities.announcements.Announcement">
+		<property name="title" value="Sample announcement 02"/>
+		<property name="moment" value="2019/10/01 00:00"/>
+		<property name="link" value = "http://www.example.com"/>
+		<property name="description" value="This is the description of another announcement"/>
+	</bean>
+	
+	<bean id="announcement03" class="acme.entities.announcements.Announcement">
+		<property name="title" value="Sample very old announcement 03"/>
+		<property name="moment" value="1900/10/10 19:35"/>
+		<property name="link" value = "http://www.example.com"/>
+		<property name="description" value="This is a very old announcement"/>
+	</bean>
+	
+	<!-- Offers -->
+	
+	<bean id="Offer01" class="acme.entities.offers.Offer">
+		<property name="title" value="Sample Offer 01"/>
+		<property name="moment" value="2019/10/15 15:30"/>
+		<property name="deadline" value="2019/11/03	15:30"/>
+		<property name="description" value="Sample of description Offer 01"/>
+		<property name="reward" value="€900.00"/>
+		<property name="ticker" value="OABCD-78948"/>
+	</bean>
+	
+	<bean id="Offer02" class="acme.entities.offers.Offer">
+		<property name="title" value="Ejemplo Oferta 2"/>
+		<property name="moment" value="2019/10/08 00:30"/>
+		<property name="deadline" value="2019/11/08 05:30"/>
+		<property name="description" value="Ejemplo de descripción del Offer 02"/>
+		<property name="reward" value="€1200.00"/>
+		<property name="ticker" value="OERTW-87458"/>
+	</bean>
+	
+	<bean id="Offer03" class="acme.entities.offers.Offer">
+		<property name="title" value="Sample Offer 03"/>
+		<property name="moment" value="2019/09/01 15:30"/>
+		<property name="deadline" value="2019/12/20	15:30"/>
+		<property name="description" value="Sample of description Offer 03"/>
+		<property name="reward" value="€500.00"/>
+		<property name="ticker" value="OGTFR-74125"/>
+	</bean>
 </beans>
 
 
