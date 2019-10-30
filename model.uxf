@@ -452,7 +452,7 @@ Company Records
 +link: String{NotBlank, URL}
 +phone: Integer{NotBlank, Pattern(regexp)}
 +email: String{NotBlank, Email}
-+incorporated: enum
++incorporated: Boolean{NotBlank}
 +stars: Integer{NotBlank, Range(0, 5)}
 </panel_attributes>
     <additional_attributes/>
