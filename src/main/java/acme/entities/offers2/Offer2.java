@@ -1,5 +1,5 @@
 
-package acme.entities.offers;
+package acme.entities.offers2;
 
 import java.util.Date;
 
@@ -16,7 +16,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Offer extends DomainEntity {
+public class Offer2 extends DomainEntity {
 
 	// Serialisation identifier -------------------------------
 

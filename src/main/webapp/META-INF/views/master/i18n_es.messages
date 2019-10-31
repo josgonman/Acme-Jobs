@@ -51,6 +51,9 @@ master.menu.anonymous.book = Boletin Miguel: Crear Libro
 master.menu.anonymous.bookList = Miguel's Bulletin: Lista de Libros
 
 
+master.menu.anonymous.investor-recordList = Historial de Inversores
+
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador

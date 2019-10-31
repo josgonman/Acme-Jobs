@@ -48,6 +48,8 @@ master.menu.anonymous.offerList = Gonzalez's Bulletin: Offers List
 master.menu.anonymous.book = Miguel's Bulletin: Book Create
 master.menu.anonymous.bookList = Miguel's Bulletin: Books List
 
+master.menu.anonymous.investor-recordList = Investor Records List
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator
