@@ -10,8 +10,8 @@ import acme.entities.offers2.Offer2;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
-public interface AnonymousOfferRepository extends AbstractRepository {
+public interface AnonymousOffer2Repository extends AbstractRepository {
 
-	@Query("select o from Offer o")
+	@Query("select o from Offer2 o")
 	Collection<Offer2> findMany();
 }

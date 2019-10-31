@@ -1,0 +1,13 @@
+authenticated.active-request.list.label.moment = Momento
+authenticated.active-request.list.label.deadline = Fecha de caducidad
+authenticated.active-request.list.label.title = Título
+authenticated.active-request.list.label.description = Descripción
+authenticated.active-request.list.label.reward = Salario
+authenticated.active-request.list.label.ticker = ID
+
+authenticated.active-request.form.label.moment = Momento
+authenticated.active-request.form.label.deadline = Fecha de caducidad
+authenticated.active-request.form.label.title = Título
+authenticated.active-request.form.label.description = Descripción
+authenticated.active-request.form.label.reward = Salario
+authenticated.active-request.form.label.ticker = ID

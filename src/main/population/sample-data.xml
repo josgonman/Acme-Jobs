@@ -18,7 +18,7 @@
 	<import resource="conversion-service.xml" />
 	
 	<!--  Shouts -->
-	
+<!-- 	
 	<bean id="shout01" class="acme.entities.shouts.Shout">
 		<property name="author" value="Jose Rodriguez"/>
 		<property name="text" value="I'm sad!"/>
@@ -114,7 +114,39 @@
 		<property name="author" value="Michael Ende"/>
 		<property name="title" value="The NeverEnding Story"/>
 		<property name="moment" value="2019/09/07 12:00"/>
+	</bean> -->
+	
+	<bean id="request01" class="acme.entities.activerequests.ActiveRequest">
+		<property name="title" value="We are making the first request"/>
+		<property name="moment" value="2019/09/07 12:00"/>
+		<property name="deadline" value="2020/09/07 12:00"/>
+		<property name="description" value="It is used to test the app"/>
+		<property name="reward" value= "100€"/>
+		<property name="ticker" value="RAAAA-00001"/>
+		
 	</bean>
+	
+	<bean id="request02" class="acme.entities.activerequests.ActiveRequest">
+		<property name="title" value="We are making the second request"/>
+		<property name="moment" value="2019/01/07 12:00"/>
+		<property name="deadline" value="2020/01/07 02:00"/>
+		<property name="description" value="It is used to retest the app"/>
+		<property name="reward" value= "900€"/>
+		<property name="ticker" value="RAAAA-00002"/>
+		
+	</bean>
+	
+	<bean id="request03" class="acme.entities.activerequests.ActiveRequest">
+		<property name="title" value="We are making the third request"/>
+		<property name="moment" value="2019/07/07 15:00"/>
+		<property name="deadline" value="2020/01/01 00:00"/>
+		<property name="description" value="It is used to re-retest the app"/>
+		<property name="reward" value= "1000€"/>
+		<property name="ticker" value="RAAAA-00003"/>
+		
+	</bean>
+	
+	
 	
 </beans>
 

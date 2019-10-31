@@ -13,16 +13,16 @@ import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Anonymous;
 
 @Controller
-@RequestMapping("/anonymous/offer/")
+@RequestMapping("/anonymous/offer2/")
 public class AnonymousOfferController extends AbstractController<Anonymous, Offer2> {
 
 	// Internal state
 
 	@Autowired
-	private AnonymousOfferListService	listService;
+	private AnonymousOffer2CreateService	listService;
 
 	@Autowired
-	private AnonymousOfferCreateService	createService;
+	private AnonymousOffer2CreateService	createService;
 
 
 	//Constructors

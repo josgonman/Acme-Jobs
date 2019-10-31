@@ -321,7 +321,7 @@ Shout
       <h>119</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
-Offer
+Offer2
 --
 +company: String{NotBlank}`
 +job: String{NotBlank}
@@ -424,7 +424,7 @@ Request
       <h>119</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
-Offer2
+Offer
 --
 +title:String{NotBlank}
 +moment: Date{Temporal(TIMESTAMP), Past}
@@ -432,77 +432,6 @@ Offer2
 +description: String{NotBlank}
 +reward: Money
 </panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-<<<<<<< Updated upstream
-      <x>882</x>
-      <y>651</y>
-      <w>399</w>
-      <h>126</h>
-    </coordinates>
-    <panel_attributes>SimpleClass</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-=======
->>>>>>> Stashed changes
-      <x>952</x>
-      <y>378</y>
-      <w>210</w>
-      <h>126</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Entity&gt;&gt;
-CompanyRecord
---
-+name: String{notBlank}
-+sector: String{notBlank}
-+description: String{notBlank}
-+website: String{notBlank, URL}
-+phone: String{notBlank}
-+email: String{notBlank,Email)}
-+incorporated: Boolean
-+stars: Integer{Range(1,5)}
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>952</x>
-      <y>518</y>
-      <w>210</w>
-      <h>119</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Entity&gt;&gt;
-InvestorRecords
---
-+name: String{notBlank}
-+sector: String{notBlank}
-+investingStatement: String{notBlank}
-+stars: Integer{Range(1,5)}</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>938</x>
-      <y>245</y>
-      <w>224</w>
-      <h>119</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Entity&gt;&gt;
-Challenge
---
-+title:String{NotBlank}
-+moment: Date{Temporal(TIMESTAMP), Past}
-+deadline: Date{Temporal(TIMESTAMP),Future}
-+goal: String{NotBlank}
-+reward: Money</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

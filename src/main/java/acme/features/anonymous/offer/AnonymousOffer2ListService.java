@@ -13,11 +13,11 @@ import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AnonymousOfferListService implements AbstractListService<Anonymous, Offer2> {
+public class AnonymousOffer2ListService implements AbstractListService<Anonymous, Offer2> {
 
 	//Internal State
 	@Autowired
-	private AnonymousOfferRepository rep;
+	private AnonymousOffer2Repository rep;
 
 
 	//AbstractListService<Administrator, Shout> interface

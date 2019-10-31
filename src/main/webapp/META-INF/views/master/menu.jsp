@@ -18,7 +18,7 @@
 
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
-		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
+		<%-- <acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 		<!-- master.menu.anonymous.favourite-link Link Favorito Alejandro-->
 			<acme:menu-suboption code="master.menu.anonymous.favourite-linkA" action="https://github.com/alefuegom"/>
 		<!-- master.menu.anonymous.favourite-link Link Favorito Pedro-->
@@ -53,7 +53,12 @@
 			
 			<acme:menu-suboption code="master.menu.anonymous.book" action="/anonymous/book/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.bookList" action="/anonymous/book/list"/>
-			
+				
+	</acme:menu-option>
+		 --%>
+		
+			<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
+			<acme:menu-suboption code="master.menu.authenticated.active-request.list" action="/authenticated/active-request/list"/>
 			
 		
 	</acme:menu-option>

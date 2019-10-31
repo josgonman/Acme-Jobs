@@ -50,6 +50,11 @@ master.menu.anonymous.offerList = Gonzalez Boletín: Lista Ofertas
 master.menu.anonymous.book = Boletin Miguel: Crear Libro
 master.menu.anonymous.bookList = Miguel's Bulletin: Lista de Libros
 
+# master.menu.authenticated ###################################################
+master.menu.authenticated = Menú
+master.menu.authenticated.active-request.show = Mostrar peticiones 
+master.menu.authenticated.active-request.list = Listar peticiones
+
 
 # master.menu.administrator ###################################################
 

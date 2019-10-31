@@ -14,12 +14,12 @@ import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractCreateService;
 
 @Service
-public class AnonymousOfferCreateService implements AbstractCreateService<Anonymous, Offer2> {
+public class AnonymousOffer2CreateService implements AbstractCreateService<Anonymous, Offer2> {
 
 	//Internal state
 
 	@Autowired
-	AnonymousOfferRepository repository;
+	AnonymousOffer2Repository repository;
 
 
 	@Override
