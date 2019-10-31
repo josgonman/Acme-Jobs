@@ -29,7 +29,7 @@
 
     drop table if exists `book`;
 
-    drop table if exists `company_records`;
+    drop table if exists `company_record`;
 
     drop table if exists `consumer`;
 

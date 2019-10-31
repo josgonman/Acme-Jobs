@@ -169,6 +169,44 @@
 		<property name="reward" value="€500.00"/>
 		<property name="ticker" value="OGTFR-74125"/>
 	</bean>
+	
+	<!-- CompanyRecords -->
+	
+	<bean id="companyrecords01" class="acme.entities.companyRecords.CompanyRecord">
+		<property name="name" value="Apple"/>
+		<property name="sector" value="Technology"/>
+		<property name="ceo" value="Tim Cook"/>
+		<property name="activities" value="Doing new technology devices"/>
+		<property name="link" value="https://www.apple.com/"/>
+		<property name="phone" value="900 812 703"/>
+		<property name="email" value="apple@outlook.com"/>
+		<property name="incorporated" value="Inc"/>
+		<property name="stars" value="5"/>
+	</bean>
+	
+	<bean id="companyrecords02" class="acme.entities.companyRecords.CompanyRecord">
+		<property name="name" value="HardwareMedia"/>
+		<property name="sector" value="Technology"/>
+		<property name="ceo" value="Alberto Joya"/>
+		<property name="activities" value="Fixing and building PCs"/>
+		<property name="link" value="https://www.hardwaremedia.es/"/>
+		<property name="phone" value="954 12 55 68"/>
+		<property name="email" value="hardwaremediaHM@gmail.com"/>
+		<property name="incorporated" value="LLC"/>
+		<property name="stars" value="3"/>
+	</bean>
+	
+	<bean id="companyrecords03" class="acme.entities.companyRecords.CompanyRecord">
+		<property name="name" value="Tencent"/>
+		<property name="sector" value="Internet services"/>
+		<property name="ceo" value="Ma Huateng"/>
+		<property name="activities" value="Providing products and services on the internet"/>
+		<property name="link" value="http://www.tencent.com/en-us/index.html"/>
+		<property name="phone" value="+011 12345678"/>
+		<property name="email" value="tencent@gmail.com"/>
+		<property name="incorporated" value="Inc"/>
+		<property name="stars" value="2"/>
+	</bean>
 </beans>
 
 

@@ -450,9 +450,9 @@ Company Records
 +ceo: String{NotBlank}
 +activities: String{NotBlank}
 +link: String{NotBlank, URL}
-+phone: Integer{NotBlank, Pattern(regexp)}
++phone: String{NotBlank, Pattern(regexp)}
 +email: String{NotBlank, Email}
-+incorporated: Boolean{NotBlank}
++incorporated: String{NotBlank, Pattern(regexp)}
 +stars: Integer{NotBlank, Range(0, 5)}
 </panel_attributes>
     <additional_attributes/>

@@ -4,6 +4,8 @@ package acme.entities.companyRecords;
 import javax.persistence.Entity;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Range;
 import org.hibernate.validator.constraints.URL;
@@ -15,7 +17,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class CompanyRecords extends DomainEntity {
+public class CompanyRecord extends DomainEntity {
 
 	private static final long	serialVersionUID	= 1L;
 
@@ -37,17 +39,18 @@ public class CompanyRecords extends DomainEntity {
 
 	@NotBlank
 
-	@Pattern(regexp = "+" + "\\d\\d\\d " + "(\\d\\d\\d\\d)" + "\\d\\d\\d\\d\\d\\d")
-	private Integer				phone;
+	@Pattern(regexp = "^([+][\\d]{0,3})?[ ]?([(][\\d]{0,4}[)])?[ ]?([\\d]{6,10}|[\\d]{3} [\\d]{2} [\\d]{2} [\\d]{2}|[\\d]{3} [\\d]{3} [\\d]{3})$")
+	private String				phone;
 
 	@NotBlank
 	@Email
 	private String				email;
 
 	@NotBlank
-	private Boolean				incorporated;
+	@Pattern(regexp = "Inc|LLC")
+	private String				incorporated;
 
-	@NotBlank
+	@NotNull
 	@Range(min = 0, max = 5)
 	private Integer				stars;
 }

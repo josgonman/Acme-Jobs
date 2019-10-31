@@ -1,0 +1,19 @@
+anonymous.companyRecord.form.label.name = Nombre
+anonymous.companyRecord.form.label.incorporated = Inscrita
+anonymous.companyRecord.form.label.sector = Sector
+anonymous.companyRecord.form.label.ceo = CEO
+anonymous.companyRecord.form.label.activities = Actividades
+anonymous.companyRecord.form.label.link = Web
+anonymous.companyRecord.form.label.phone = Teléfono
+anonymous.companyRecord.form.label.email = Email
+anonymous.companyRecord.form.label.stars = Puntuación
+
+anonymous.companyRecord.list.label.name = Nombre
+anonymous.companyRecord.list.label.incorporated = Inscrita
+anonymous.companyRecord.list.label.sector = Sector
+anonymous.companyRecord.list.label.ceo = CEO
+anonymous.companyRecord.list.label.activities = Actividades
+anonymous.companyRecord.list.label.link = Web
+anonymous.companyRecord.list.label.phone = Teléfono
+anonymous.companyRecord.list.label.email = Email
+anonymous.companyRecord.list.label.stars = Puntuación
