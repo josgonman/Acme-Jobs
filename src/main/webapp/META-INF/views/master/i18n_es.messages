@@ -50,7 +50,10 @@ master.menu.anonymous.offerList = Gonzalez Boletín: Lista Ofertas
 master.menu.anonymous.book = Boletin Miguel: Crear Libro
 master.menu.anonymous.bookList = Miguel's Bulletin: Lista de Libros
 
-master.menu.anonymous.announcement = Lista de anuncios;
+master.menu.anonymous.announcement = Lista de anuncios
+
+master.menu.anonymous.companyRecord = Crear una compañia
+master.menu.anonymous.companyRecordList = Listar compañias
 
 # master.menu.authenticated ###################################################
 

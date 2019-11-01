@@ -58,6 +58,11 @@
 			
 			<acme:menu-suboption code="master.menu.anonymous.announcement" action="/anonymous/announcement/list"/>
 			
+			<acme:menu-separator/>
+			
+			<acme:menu-suboption code="master.menu.anonymous.companyRecord" action="/anonymous/companyRecord/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.companyRecordList" action="/anonymous/companyRecord/list"/>
+			
 		
 	</acme:menu-option>
 		

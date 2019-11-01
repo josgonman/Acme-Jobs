@@ -50,6 +50,9 @@ master.menu.anonymous.bookList = Miguel's Bulletin: Books List
 
 master.menu.anonymous.announcement= List Announcements
 
+master.menu.anonymous.companyRecord = Create a company
+master.menu.anonymous.companyRecordList = List companys
+
 # master.menu.authenticated ###################################################
 
 master.menu.authenticated = Authenticated
