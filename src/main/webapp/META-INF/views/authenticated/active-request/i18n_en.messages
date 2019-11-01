@@ -12,3 +12,5 @@ authenticated.active-request.form.label.title = Title
 authenticated.active-request.form.label.description = Description
 authenticated.active-request.form.label.reward = Reward
 authenticated.active-request.form.label.ticker = Ticker
+
+authenticated.active-request.form.label.button.return = Return

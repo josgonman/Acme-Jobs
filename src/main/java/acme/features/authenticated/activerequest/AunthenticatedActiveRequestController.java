@@ -14,14 +14,17 @@ import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Authenticated;
 
 @Controller
-@RequestMapping("/authenticated/active-request/")
+@RequestMapping("authenticated/active-request/")
 public class AunthenticatedActiveRequestController extends AbstractController<Authenticated, ActiveRequest> {
 
 	// Internal state
 
 	@Autowired
 	private AuthenticatedActiveRequestListService	listService;
+	
+	@Autowired
 	private AuthenticatedActiveRequestShowService showService;
+	
 
 
 	//Constructors

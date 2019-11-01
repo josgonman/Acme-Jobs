@@ -11,3 +11,5 @@ authenticated.active-request.form.label.title = Título
 authenticated.active-request.form.label.description = Descripción
 authenticated.active-request.form.label.reward = Salario
 authenticated.active-request.form.label.ticker = ID
+
+authenticated.active-request.form.label.button.return = Volver
