@@ -43,20 +43,16 @@
 			<acme:menu-suboption code="master.menu.anonymous.createPlayersPedro" action="/anonymous/player/create"/>
 		<!-- master.menu.anonymous.listPlayers Listar Jugadores -->
 			<acme:menu-suboption code="master.menu.anonymous.listPlayersPedro" action="/anonymous/player/list"/>
-			
 			<acme:menu-separator/>
-			
 			<acme:menu-suboption code="master.menu.anonymous.offer" action="/anonymous/offer2/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.offerList" action="/anonymous/offer2/list"/>
-			
 			<acme:menu-separator/>
-			
 			<acme:menu-suboption code="master.menu.anonymous.book" action="/anonymous/book/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.bookList" action="/anonymous/book/list"/>
             <acme:menu-separator/>
-			
 			<acme:menu-suboption code="master.menu.anonymous.announcement" action="/anonymous/announcement/list"/>
-			
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.investor-recordList" action="/anonymous/investor-record/list"/>
 				
 	</acme:menu-option>
 		

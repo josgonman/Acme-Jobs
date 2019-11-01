@@ -86,16 +86,6 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `offer2` (
-       `id` integer not null,
-        `version` integer not null,
-        `company` varchar(255),
-        `job` varchar(255),
-        `moment` datetime(6),
-        `salary` double precision not null,
-        primary key (`id`)
-    ) engine=InnoDB;
-    
     create table `offer` (
        `id` integer not null,
         `version` integer not null,
@@ -108,7 +98,17 @@
         `title` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
-        `reward_amount` double precision,
+
+    create table `offer2` (
+       `id` integer not null,
+        `version` integer not null,
+        `company` varchar(255),
+        `job` varchar(255),
+        `moment` datetime(6),
+        `salary` double precision not null,
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `player` (
        `id` integer not null,
         `version` integer not null,

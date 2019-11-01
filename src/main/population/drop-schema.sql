@@ -37,6 +37,8 @@
 
     drop table if exists `investor_record`;
 
+    drop table if exists `offer`;
+
     drop table if exists `offer2`;
 
     drop table if exists `player`;
