@@ -76,7 +76,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `offer2` (
+    create table `offer` (
        `id` integer not null,
         `version` integer not null,
         `deadline` datetime(6),

@@ -35,7 +35,7 @@
 
     drop table if exists `consumer`;
 
-    drop table if exists `offer2`;
+    drop table if exists `offer`;
 
     drop table if exists `offer2`;
 

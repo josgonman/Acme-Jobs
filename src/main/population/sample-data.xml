@@ -18,7 +18,7 @@
 	<import resource="conversion-service.xml" />
 	
 	<!--  Shouts -->
-<!-- 	
+ 	
 	<bean id="shout01" class="acme.entities.shouts.Shout">
 		<property name="author" value="Jose Rodriguez"/>
 		<property name="text" value="I'm sad!"/>
@@ -84,7 +84,6 @@
 		<property name="moment" value="2019/09/07 14:00"/>
 	</bean>
 	
-	<!-- JM Bulletin -->
 	
 	<bean id="offer202" class="acme.entities.offers2.Offer2">
 		<property name="company" value="Maderas Pancho"/>
@@ -116,7 +115,7 @@
 		<property name="author" value="Michael Ende"/>
 		<property name="title" value="The NeverEnding Story"/>
 		<property name="moment" value="2019/09/07 12:00"/>
-	</bean> -->
+	</bean>
 	
 	<!-- Announcement -->
 	
