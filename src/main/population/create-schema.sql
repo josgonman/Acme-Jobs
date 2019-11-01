@@ -1,4 +1,17 @@
 
+    create table `active_request` (
+       `id` integer not null,
+        `version` integer not null,
+        `deadline` datetime(6),
+        `description` varchar(255),
+        `moment` datetime(6),
+        `reward_amount` double precision,
+        `reward_currency` varchar(255),
+        `ticker` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `administrator` (
        `id` integer not null,
         `version` integer not null,
@@ -63,7 +76,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `offer` (
+    create table `offer2` (
        `id` integer not null,
         `version` integer not null,
         `deadline` datetime(6),

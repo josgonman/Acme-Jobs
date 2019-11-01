@@ -57,6 +57,8 @@ master.menu.anonymous.announcement = Lista de anuncios;
 master.menu.authenticated = Autenticado/a
 master.menu.authenticated.announcement = Lista de anuncios
 master.menu.authenticated.offer = Lista de Ofertas
+master.menu.authenticated.active-request.show = Mostrar peticiones 
+master.menu.authenticated.active-request.list = Listar peticiones
 
 # master.menu.administrator ###################################################
 

@@ -1,0 +1,16 @@
+authenticated.active-request.list.label.moment = Moment
+authenticated.active-request.list.label.deadline = Deadline
+authenticated.active-request.list.label.title = Title
+authenticated.active-request.list.label.description = Description
+authenticated.active-request.list.label.reward = Reward
+authenticated.active-request.list.label.ticker = Ticker
+
+
+authenticated.active-request.form.label.moment = Moment
+authenticated.active-request.form.label.deadline = Deadline
+authenticated.active-request.form.label.title = Title
+authenticated.active-request.form.label.description = Description
+authenticated.active-request.form.label.reward = Reward
+authenticated.active-request.form.label.ticker = Ticker
+
+authenticated.active-request.form.label.button.return = Return

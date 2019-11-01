@@ -19,6 +19,8 @@
        drop 
        foreign key FK_b1gwnjqm6ggy9yuiqm0o4rlmd;
 
+    drop table if exists `active_request`;
+
     drop table if exists `administrator`;
 
     drop table if exists `announcement`;
@@ -33,7 +35,7 @@
 
     drop table if exists `consumer`;
 
-    drop table if exists `offer`;
+    drop table if exists `offer2`;
 
     drop table if exists `offer2`;
 
