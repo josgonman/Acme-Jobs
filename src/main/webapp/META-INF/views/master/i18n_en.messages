@@ -49,6 +49,8 @@ master.menu.anonymous.book = Miguel's Bulletin: Book Create
 master.menu.anonymous.bookList = Miguel's Bulletin: Books List
 
 master.menu.anonymous.announcement= List Announcements
+master.menu.anonymous.investor-recordList = Investor Records List
+
 
 # master.menu.authenticated ###################################################
 
@@ -58,6 +60,7 @@ master.menu.authenticated.offer = List Offers
 
 master.menu.authenticated.active-request.show = Show requests 
 master.menu.authenticated.active-request.list = List requests
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator

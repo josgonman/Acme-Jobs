@@ -76,16 +76,13 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `offer` (
+    create table `investor_record` (
        `id` integer not null,
         `version` integer not null,
-        `deadline` datetime(6),
-        `description` varchar(255),
-        `moment` datetime(6),
-        `reward_amount` double precision,
-        `reward_currency` varchar(255),
-        `ticker` varchar(255),
-        `title` varchar(255),
+        `investor_statement` varchar(255),
+        `name` varchar(255),
+        `sector` varchar(255),
+        `stars` integer,
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -98,7 +95,20 @@
         `salary` double precision not null,
         primary key (`id`)
     ) engine=InnoDB;
-
+    
+    create table `offer` (
+       `id` integer not null,
+        `version` integer not null,
+        `deadline` datetime(6),
+        `description` varchar(255),
+        `moment` datetime(6),
+        `reward_amount` double precision,
+        `reward_currency` varchar(255),
+        `ticker` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+        `reward_amount` double precision,
     create table `player` (
        `id` integer not null,
         `version` integer not null,

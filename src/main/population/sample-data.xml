@@ -77,22 +77,21 @@
 		<property name="quote" value="Everybody in the NBA is good. And then you have the really good ones and the great ones"/>
 	</bean>	
 	
-	<bean id="offer201" class="acme.entities.offers2.Offer2">
+	<bean id="offer201" class="acme.entities.offers.Offer">
 		<property name="company" value="Servitesa"/>
 		<property name="job" value="Instalador de radios para coches"/>
 		<property name="salary" value="800.00"/>
 		<property name="moment" value="2019/09/07 14:00"/>
 	</bean>
 	
-	
-	<bean id="offer202" class="acme.entities.offers2.Offer2">
+	<bean id="offer202" class="acme.entities.offers.Offer">
 		<property name="company" value="Maderas Pancho"/>
 		<property name="job" value="Ebanista"/>
 		<property name="salary" value="1200.00"/>
 		<property name="moment" value="2019/09/23 16:00"/>
 	</bean>		
 	
-	<bean id="offer203" class="acme.entities.offers2.Offer2">
+	<bean id="offer203" class="acme.entities.offers.Offer">
 		<property name="company" value="Kildare Catering"/>
 		<property name="job" value="Camarero"/>
 		<property name="salary" value="900.00"/>
@@ -234,6 +233,25 @@
 		<property name="reward" value= "1000€"/>
 		<property name="ticker" value="RAAAA-00003"/>
 		
+	</bean>
+	
+	<bean id="investorRecord01" class="acme.entities.investorRecords.InvestorRecord">
+		<property name="name" value="John doe"/>
+		<property name="sector" value="construction"/>
+		<property name="investorStatement" value="it's on the raise"/>
+		<property name="stars" value="2"/>
+	</bean>
+	<bean id="investorRecord02" class="acme.entities.investorRecords.InvestorRecord">
+		<property name="name" value="Joseph Joestar"/>
+		<property name="sector" value="Medicine"/>
+		<property name="investorStatement" value="Something everyone should invest"/>
+		<property name="stars" value="5"/>
+	</bean>
+	<bean id="investorRecord03" class="acme.entities.investorRecords.InvestorRecord">
+		<property name="name" value="Maria Martin"/>
+		<property name="sector" value="Computer Technology"/>
+		<property name="investorStatement" value="It's very important right now"/>
+		<property name="stars" value="4"/>
 	</bean>
 	
 </beans>
