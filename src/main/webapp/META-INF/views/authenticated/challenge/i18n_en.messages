@@ -1,0 +1,14 @@
+authenticated.challenge.form.label.title = Title
+authenticated.challenge.form.label.description = Description
+authenticated.challenge.form.label.deadline = Deadline
+authenticated.challenge.form.label.reward= Reward
+authenticated.challenge.form.label.goal = Goal
+authenticated.challenge.form.button.return = Return
+
+authenticated.challenge.list.label.title = Title
+authenticated.challenge.list.label.description = Description
+authenticated.challenge.list.label.deadline = Deadline
+authenticated.challenge.list.label.reward= Reward
+authenticated.challenge.list.label.goal = Goal
+authenticated.challenge.list.button.return = Return
+
