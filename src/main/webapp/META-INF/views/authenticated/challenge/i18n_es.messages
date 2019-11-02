@@ -1,0 +1,13 @@
+authenticated.challenge.form.label.title = Título
+authenticated.challenge.form.label.description = Descripción
+authenticated.challenge.form.label.deadline = Fecha de caducidad
+authenticated.challenge.form.label.reward= Salario
+authenticated.challenge.form.label.goal = Objetivo
+authenticated.challenge.form.button.return = Volver
+
+authenticated.challenge.list.label.title = Título
+authenticated.challenge.list.label.description = Descripción
+authenticated.challenge.list.label.deadline = Fecha de caducidad
+authenticated.challenge.list.label.reward= Recompensa
+authenticated.challenge.list.label.goal = Objetivo
+authenticated.challenge.list.button.return = Volver

@@ -59,7 +59,7 @@ master.menu.authenticated.announcement = List Announcements
 master.menu.authenticated.offer = List Offers
 
 master.menu.authenticated.active-request.list = List requests
-
+master.menu.authenticated.challenge.list = List challenges
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator
