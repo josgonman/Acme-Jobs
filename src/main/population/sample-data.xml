@@ -180,7 +180,7 @@
 		<property name="link" value="https://www.apple.com/"/>
 		<property name="phone" value="900 812 703"/>
 		<property name="email" value="apple@outlook.com"/>
-		<property name="incorporated" value="Inc"/>
+		<property name="incorporated" value="true"/>
 		<property name="stars" value="5"/>
 	</bean>
 	
@@ -192,7 +192,7 @@
 		<property name="link" value="https://www.hardwaremedia.es/"/>
 		<property name="phone" value="954 12 55 68"/>
 		<property name="email" value="hardwaremediaHM@gmail.com"/>
-		<property name="incorporated" value="LLC"/>
+		<property name="incorporated" value="false"/>
 		<property name="stars" value="3"/>
 	</bean>
 	
@@ -204,7 +204,7 @@
 		<property name="link" value="http://www.tencent.com/en-us/index.html"/>
 		<property name="phone" value="+011 12345678"/>
 		<property name="email" value="tencent@gmail.com"/>
-		<property name="incorporated" value="Inc"/>
+		<property name="incorporated" value="true"/>
 		<property name="stars" value="2"/>
 	</bean>
 </beans>

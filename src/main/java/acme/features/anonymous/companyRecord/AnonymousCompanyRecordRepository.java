@@ -16,6 +16,6 @@ public interface AnonymousCompanyRecordRepository extends AbstractRepository {
 	CompanyRecord findOneById(int id);
 
 	@Query("select c from CompanyRecord c")
-	Collection<CompanyRecord> findMany();
+	Collection<CompanyRecord> finfManyAll();
 
 }
