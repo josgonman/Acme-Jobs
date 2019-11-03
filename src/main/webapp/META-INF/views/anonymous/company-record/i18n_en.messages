@@ -7,6 +7,7 @@ anonymous.companyRecord.form.label.link = Web
 anonymous.companyRecord.form.label.phone = Phone
 anonymous.companyRecord.form.label.email = Email
 anonymous.companyRecord.form.label.stars = Stars
+anonymous.companyRecord.form.button.return = Return
 
 anonymous.companyRecord.list.label.name = Name
 anonymous.companyRecord.list.label.incorporated = Incorporated

@@ -54,17 +54,15 @@ master.menu.anonymous.announcement = Lista de anuncios;
 
 master.menu.anonymous.investor-recordList = Historial de Inversores
 
-master.menu.anonymous.companyRecord = Crear una compañia
-master.menu.anonymous.companyRecordList = Listar compañias
+master.menu.anonymous.companyRecordList = Lista Compañias
 
 # master.menu.authenticated ###################################################
 
 master.menu.authenticated = Autenticado/a
 master.menu.authenticated.announcement = Lista de anuncios
 master.menu.authenticated.offer = Lista de Ofertas
-master.menu.authenticated.active-request.show = Mostrar peticiones 
-master.menu.authenticated.active-request.list = Listar peticiones
-master.menu.authenticated.challenge.list = Listar retos
+master.menu.authenticated.active-request.list = Lista peticiones
+master.menu.authenticated.challenge.list = Lista Retos
 
 
 

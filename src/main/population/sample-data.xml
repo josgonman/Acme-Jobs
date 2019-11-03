@@ -144,7 +144,7 @@
 	<bean id="Offer01" class="acme.entities.offers.Offer">
 		<property name="title" value="Sample Offer 01"/>
 		<property name="moment" value="2019/10/15 15:30"/>
-		<property name="deadline" value="2019/11/03	15:30"/>
+		<property name="deadline" value="2019/11/23	15:30"/>
 		<property name="description" value="Sample of description Offer 01"/>
 		<property name="reward" value="€900.00"/>
 		<property name="ticker" value="OABCD-78948"/>

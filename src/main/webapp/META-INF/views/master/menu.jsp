@@ -54,9 +54,7 @@
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.investor-recordList" action="/anonymous/investor-record/list"/>
             <acme:menu-separator/>
-			
-			<acme:menu-suboption code="master.menu.anonymous.companyRecord" action="/anonymous/companyRecord/create"/>
-			<acme:menu-suboption code="master.menu.anonymous.companyRecordList" action="/anonymous/companyRecord/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.companyRecordList" action="/anonymous/company-record/list"/>
 				
 	</acme:menu-option>
 		

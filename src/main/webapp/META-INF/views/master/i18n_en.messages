@@ -51,9 +51,7 @@ master.menu.anonymous.bookList = Miguel's Bulletin: Books List
 master.menu.anonymous.announcement= List Announcements
 master.menu.anonymous.investor-recordList = Investor Records List
 
-
-master.menu.anonymous.companyRecord = Create a company
-master.menu.anonymous.companyRecordList = List companys
+master.menu.anonymous.companyRecordList = List Companies
 
 # master.menu.authenticated ###################################################
 
