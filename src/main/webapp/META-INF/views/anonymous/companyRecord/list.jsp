@@ -6,7 +6,6 @@
 
 <acme:list readonly="true">
 	<acme:list-column code="anonymous.companyRecord.list.label.name" path="name" width="10%"/>
-	<acme:list-column code="anonymous.companyRecord.list.label.incorporated" path="incorporated" width="10%"/>
 	<acme:list-column code="anonymous.companyRecord.list.label.sector" path="sector" width="10%"/>
 	<acme:list-column code="anonymous.companyRecord.list.label.ceo" path="ceo" width="10%"/>
 	<acme:list-column code="anonymous.companyRecord.list.label.activities" path="activities" width="10%"/>

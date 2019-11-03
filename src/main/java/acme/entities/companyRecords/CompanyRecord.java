@@ -2,6 +2,7 @@
 package acme.entities.companyRecords;
 
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
@@ -38,7 +39,6 @@ public class CompanyRecord extends DomainEntity {
 	private String				link;
 
 	@NotBlank
-
 	@Pattern(regexp = "^([+][\\d]{0,3})?[ ]?([(][\\d]{0,4}[)])?[ ]?([\\d]{6,10}|[\\d]{3} [\\d]{2} [\\d]{2} [\\d]{2}|[\\d]{3} [\\d]{3} [\\d]{3})$")
 	private String				phone;
 
@@ -46,11 +46,19 @@ public class CompanyRecord extends DomainEntity {
 	@Email
 	private String				email;
 
-	@NotBlank
-	@Pattern(regexp = "Inc|LLC")
-	private String				incorporated;
+	private Boolean				incorporated;
 
 	@NotNull
 	@Range(min = 0, max = 5)
 	private Integer				stars;
+
+
+	@Transient
+	public void getIncorporated() {
+		if (this.incorporated == true) {
+			this.name.concat(", Inc");
+		} else {
+			this.name.concat(", LLC");
+		}
+	}
 }

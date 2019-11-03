@@ -5,7 +5,7 @@
 
 <acme:form>
 	<acme:form-textbox code="anonymous.companyRecord.form.label.name" path="name" width="10%"/>
-	<acme:form-textbox code="anonymous.companyRecord.form.label.incorporated" path="incorporated" width="10%"/>
+	<acme:form-checkbox code="anonymous.companyRecord.form.label.incorporated" path="incorporated" width="10%"/>
 	<acme:form-textbox code="anonymous.companyRecord.form.label.sector" path="sector" width="10%"/>
 	<acme:form-textbox code="anonymous.companyRecord.form.label.ceo" path="ceo" width="10%"/>
 	<acme:form-textbox code="anonymous.companyRecord.form.label.activities" path="activities" width="10%"/>

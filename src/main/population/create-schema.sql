@@ -69,7 +69,7 @@
         `activities` varchar(255),
         `ceo` varchar(255),
         `email` varchar(255),
-        `incorporated` varchar(255),
+        `incorporated` bit,
         `link` varchar(255),
         `name` varchar(255),
         `phone` varchar(255),
