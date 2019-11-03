@@ -1,7 +1,8 @@
 authenticated.offer.list.label.moment = Momento
 authenticated.offer.list.label.title = Título
 authenticated.offer.list.label.deadline = Fecha límite
-authenticated.offer.list.label.reward = Recompensa
+authenticated.offer.list.label.minMon = Mínimo
+authenticated.offer.list.label.maxMon = Máximo
 
 
 authenticated.offer.form.label.ticker = Código bursátil:
@@ -9,6 +10,7 @@ authenticated.offer.form.label.title = Título:
 authenticated.offer.form.label.moment = Momento:
 authenticated.offer.form.label.deadline = Fecha límite:
 authenticated.offer.form.label.description = Descripción:
-authenticated.offer.form.label.reward = Recompensa:
+authenticated.offer.form.label.minMon = Mínimo:
+authenticated.offer.form.label.maxMon = Máximo:
 
 authenticated.offer.form.button.return = Volver

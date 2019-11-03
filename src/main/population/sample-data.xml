@@ -146,7 +146,8 @@
 		<property name="moment" value="2019/10/15 15:30"/>
 		<property name="deadline" value="2019/11/23	15:30"/>
 		<property name="description" value="Sample of description Offer 01"/>
-		<property name="reward" value="€900.00"/>
+		<property name="minMon" value="€900.00"/>
+		<property name="maxMon" value="€1000.00"/>
 		<property name="ticker" value="OABCD-78948"/>
 	</bean>
 	
@@ -155,7 +156,8 @@
 		<property name="moment" value="2019/10/08 00:30"/>
 		<property name="deadline" value="2019/11/08 05:30"/>
 		<property name="description" value="Ejemplo de descripción del Offer 02"/>
-		<property name="reward" value="€1200.00"/>
+		<property name="minMon" value="€500.00"/>
+		<property name="maxMon" value="€1300.00"/>
 		<property name="ticker" value="OERTW-87458"/>
 	</bean>
 	
@@ -164,7 +166,8 @@
 		<property name="moment" value="2019/09/01 15:30"/>
 		<property name="deadline" value="2019/12/20	15:30"/>
 		<property name="description" value="Sample of description Offer 03"/>
-		<property name="reward" value="€500.00"/>
+		<property name="minMon" value="€800.00"/>
+		<property name="maxMon" value="€1200.00"/>
 		<property name="ticker" value="OGTFR-74125"/>
 	</bean>
 	

@@ -40,7 +40,10 @@ public class Offer extends DomainEntity {
 	private String				description;
 
 	@Valid
-	private Money				reward;
+	private Money				minMon;
+
+	@Valid
+	private Money				maxMon;
 
 	@NotBlank
 	@Column(unique = true)
