@@ -1,0 +1,12 @@
+administrator.dashboard.form.label.announcement = Total Announcements
+administrator.dashboard.form.label.company = Total Companies
+administrator.dashboard.form.label.investor = Total Investors
+administrator.dashboard.form.label.minActiveRequest = Minimum reward from Active Requests
+administrator.dashboard.form.label.maxActiveRequest = Maximum reward from Active Requests
+administrator.dashboard.form.label.avgActiveRequest = Average reward from Active Requests
+administrator.dashboard.form.label.standDevAR = Standard Deviation reward from Active Requests
+administrator.dashboard.form.label.minActiveOffers = Minimum reward from Minimum Money from the range of Active Offers
+administrator.dashboard.form.label.maxActiveOffers = Maximum reward from Maximum money from the range of Active Offers
+administrator.dashboard.form.label.avgMinActiveOffers = Average reward from Minimum money from the range of Active Offers
+administrator.dashboard.form.label.avgMaxActiveOffers = Average reward from Maximum money from the range of Active Offers
+administrator.dashboard.form.label.standDevAO = Standard deviation (minimum money + maximum money) from the range of Active Offers

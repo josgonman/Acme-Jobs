@@ -1,0 +1,12 @@
+administrator.dashboard.form.label.announcement = Anuncios totales:
+administrator.dashboard.form.label.company = Compañías totales:
+administrator.dashboard.form.label.investor = Inversores totales:
+administrator.dashboard.form.label.minActiveRequest = Recompensa mínima de las peticiones activas:
+administrator.dashboard.form.label.maxActiveRequest = Recompensa máxima de las peticiones activas:
+administrator.dashboard.form.label.avgActiveRequest = Recompensa media de las peticiones activas:
+administrator.dashboard.form.label.standDevAR = Desviación típica de las recompensas de las peticiones activas:
+administrator.dashboard.form.label.minActiveOffers = Recompensa mínima del dinero mínimo del rango de las ofertas activas:
+administrator.dashboard.form.label.maxActiveOffers = Recompensa máximo del dinero máximo del rango de las ofertas activas:
+administrator.dashboard.form.label.avgMinActiveOffers = Recompensa media del dinero mínimo del rango de las ofertas activas:
+administrator.dashboard.form.label.avgMaxActiveOffers = Recompensa media del dinero máximo del rango de las ofertas activas:
+administrator.dashboard.form.label.standDevAO = Desviación típica (dinero mínimo + dinero máximo del rango) de las ofertas activas:
