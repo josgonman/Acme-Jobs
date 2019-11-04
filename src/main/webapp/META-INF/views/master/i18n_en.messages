@@ -50,6 +50,8 @@ master.menu.anonymous.bookList = Miguel's Bulletin: Books List
 
 master.menu.anonymous.announcement= List Announcements
 master.menu.anonymous.investor-recordList = Investor Records List
+master.menu.anonymous.investor-top-recordList = Top Investor Records List
+
 
 master.menu.anonymous.companyRecordList = List Companies
 
