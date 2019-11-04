@@ -52,6 +52,7 @@ master.menu.anonymous.announcement= List Announcements
 master.menu.anonymous.investor-recordList = Investor Records List
 
 master.menu.anonymous.companyRecordList = List Companies
+master.menu.anonymous.companyTopRecordList =List of top Companies
 
 # master.menu.authenticated ###################################################
 
