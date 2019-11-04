@@ -55,6 +55,7 @@ master.menu.anonymous.announcement = Lista de anuncios;
 master.menu.anonymous.investor-recordList = Historial de Inversores
 
 master.menu.anonymous.companyRecordList = Lista Compañias
+master.menu.anonymous.companyTopRecordList =Lista Mejores Compañias
 
 # master.menu.authenticated ###################################################
 

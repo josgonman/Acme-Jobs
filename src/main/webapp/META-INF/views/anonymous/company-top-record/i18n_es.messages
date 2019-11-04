@@ -1,0 +1,20 @@
+anonymous.companyTopRecord.form.label.name = Nombre
+anonymous.companyTopRecord.form.label.incorporated = Inscrita
+anonymous.companyTopRecord.form.label.sector = Sector
+anonymous.companyTopRecord.form.label.ceo = CEO
+anonymous.companyTopRecord.form.label.activities = Actividades
+anonymous.companyTopRecord.form.label.link = Web
+anonymous.companyTopRecord.form.label.phone = Teléfono
+anonymous.companyTopRecord.form.label.email = Email
+anonymous.companyTopRecord.form.label.stars = Puntuación
+anonymous.companyTopRecord.form.button.return = Volver
+
+anonymous.companyTopRecord.list.label.name = Nombre
+anonymous.companyTopRecord.list.label.incorporated = Inscrita
+anonymous.companyTopRecord.list.label.sector = Sector
+anonymous.companyTopRecord.list.label.ceo = CEO
+anonymous.companyTopRecord.list.label.activities = Actividades
+anonymous.companyTopRecord.list.label.link = Web
+anonymous.companyTopRecord.list.label.phone = Teléfono
+anonymous.companyTopRecord.list.label.email = Email
+anonymous.companyTopRecord.list.label.stars = Puntuación

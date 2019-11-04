@@ -57,7 +57,7 @@
             <acme:menu-suboption code="master.menu.anonymous.investor-top-recordList" action="/anonymous/investor-top-record/list"/>
 		<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.companyRecordList" action="/anonymous/company-record/list"/>
-				
+			<acme:menu-suboption code="master.menu.anonymous.companyTopRecordList" action="/anonymous/company-top-record/list"/>	
 	</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
