@@ -28,7 +28,8 @@
 		<!-- master.menu.anonymous.favourite-link Link Link Favorito Miguel -->
 			<acme:menu-suboption code="master.menu.anonymous.favourite-linkD" action="https://www.informatica.us.es/"/>	
 			<acme:menu-separator/>
-	
+			
+			
 			<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.shoutlist" action="/anonymous/shout/list"/>
 			
@@ -53,7 +54,8 @@
 			<acme:menu-suboption code="master.menu.anonymous.announcement" action="/anonymous/announcement/list"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.investor-recordList" action="/anonymous/investor-record/list"/>
-            <acme:menu-separator/>
+            <acme:menu-suboption code="master.menu.anonymous.investor-top-recordList" action="/anonymous/investor-top-record/list"/>
+		<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.companyRecordList" action="/anonymous/company-record/list"/>
 				
 	</acme:menu-option>
