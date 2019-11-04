@@ -1,9 +1,7 @@
+
 package acme.entities.banners;
 
-import java.awt.Image;
-
 import javax.persistence.Entity;
-
 import javax.validation.constraints.NotBlank;
 
 import org.hibernate.validator.constraints.CreditCardNumber;
@@ -18,31 +16,23 @@ import lombok.Setter;
 @Setter
 public class Banner extends DomainEntity {
 
+	private static final long	serialVersionUID	= 1L;
 
-		private static final long	serialVersionUID	= 1L;
+	@NotBlank
+	@URL
+	private String				picture;
 
-	
-		private Image				picture;
+	private String				slogan;
 
-	
-		private String				slogan;
+	@URL
+	@NotBlank
+	private String				url;
 
-		@URL
-		@NotBlank
-		private String				url;
+	private Boolean				comercial;
 
-		
-		private Boolean				comercial;
-		
-		
-		@CreditCardNumber
-		private String 				card;
-		
-		
-		private	String				jingle;
-	
+	@CreditCardNumber
+	private String				card;
 
+	private String				jingle;
 
-	}
-
-
+}

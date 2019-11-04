@@ -29,6 +29,8 @@
 
     drop table if exists `authenticated`;
 
+    drop table if exists `banner`;
+
     drop table if exists `book`;
 
     drop table if exists `challenge`;
