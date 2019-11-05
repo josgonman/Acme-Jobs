@@ -15,7 +15,7 @@ public interface AuthenticatedActiveRequestRepository extends AbstractRepository
 	@Query("select s from ActiveRequest s where s.id = ?1")
     ActiveRequest findOneById(int id);
 	
-	@Query("select s from ActiveRequest s")
+	@Query("select s from ActiveRequest s where datediff(current_date(), s.deadline)<0")
 	Collection<ActiveRequest> findMany();
 	
 

@@ -9,6 +9,11 @@ authenticated.challenge.list.label.title = Title
 authenticated.challenge.list.label.description = Description
 authenticated.challenge.list.label.deadline = Deadline
 authenticated.challenge.list.label.reward= Reward
-authenticated.challenge.list.label.goal = Goal
+authenticated.challenge.list.label.goalGold = Goal (Gold)
+authenticated.challenge.list.label.goalSilver = Goal (Silver)
+
+authenticated.challenge.list.label.goalBronze = Goal (Bronze)
+
+
 authenticated.challenge.list.button.return = Return
 

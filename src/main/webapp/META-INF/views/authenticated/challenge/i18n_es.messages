@@ -9,5 +9,9 @@ authenticated.challenge.list.label.title = Título
 authenticated.challenge.list.label.description = Descripción
 authenticated.challenge.list.label.deadline = Fecha de caducidad
 authenticated.challenge.list.label.reward= Recompensa
-authenticated.challenge.list.label.goal = Objetivo
+authenticated.challenge.list.label.goalGold = Objetivo (Oro)
+authenticated.challenge.list.label.goalSilver = Objetivo (Plata)
+
+authenticated.challenge.list.label.goalBronze = Objetivo (Bronce)
+
 authenticated.challenge.list.button.return = Volver

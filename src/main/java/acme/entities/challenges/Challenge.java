@@ -33,30 +33,20 @@ public class Challenge extends DomainEntity {
 
 	@NotBlank
 	private String description;
-
-	@Transient
-	private String goal;
-
-	
+	@NotBlank
+	private String goalGoldName;
+	@NotBlank
+	private String goalSilverName;
+	@NotBlank
+	private String goalBronzeName;
 	@Valid
-	private Money reward;
+	private Money goldReward;
+	@Valid
+	private Money silverReward;
+	@Valid
+	private Money bronzeReward;
+
 	
- // --------------------DERIVED ATTRIBUTES-------------------------
 	
-	public String getGoal() {
-		StringBuilder result;
-		result = new StringBuilder();
-		
-		if(this.reward.getAmount()>=2000.) {
-			result = result.append("Gold");
-		}
-		else if(this.reward.getAmount()>=1000. && this.reward.getAmount()<2000.) {
-			result = result.append("Silver");
-		}
-		else {
-			result = result.append("Bronze");
-		}
-		
-		return result.toString();
-	}
+
 }

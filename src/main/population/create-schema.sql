@@ -67,10 +67,17 @@
     create table `challenge` (
        `id` integer not null,
         `version` integer not null,
+        `bronze_reward_amount` double precision,
+        `bronze_reward_currency` varchar(255),
         `deadline` datetime(6),
         `description` varchar(255),
-        `reward_amount` double precision,
-        `reward_currency` varchar(255),
+        `goal_bronze_name` varchar(255),
+        `goal_gold_name` varchar(255),
+        `goal_silver_name` varchar(255),
+        `gold_reward_amount` double precision,
+        `gold_reward_currency` varchar(255),
+        `silver_reward_amount` double precision,
+        `silver_reward_currency` varchar(255),
         `title` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;

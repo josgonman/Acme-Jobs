@@ -55,7 +55,7 @@ public class ActiveRequest extends DomainEntity {
 
 	@NotBlank
 	@Column(unique = true)
-	@Pattern(regexp = "R" + "[a-zA-Z]" + "[a-zA-Z]" + "[a-zA-Z]" + "[a-zA-Z]" + "-\\d\\d\\d\\d\\d")
+	@Pattern(regexp = "[R][A-Za-z]{4}[-][\\d]{5}")
 	private String				ticker;
 
 }
