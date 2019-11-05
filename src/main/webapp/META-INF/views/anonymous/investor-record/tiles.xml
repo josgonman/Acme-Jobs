@@ -5,12 +5,12 @@
 	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 
 <tiles-definitions>	
-	<definition name="anonymous/investor-record/list" extends="master">
-	<put-attribute name="body" type="template" value="../anonymous/investor-record/list.jsp"/>
+	<definition name="authenticated/investor-record/list" extends="master">
+	<put-attribute name="body" type="template" value="../authenticated/investor-record/list.jsp"/>
 	</definition>
 	
-	<definition name="anonymous/investor-record/form" extends="master">
-	<put-attribute name="body" type="template" value="../anonymous/investor-record/form.jsp"/>
+	<definition name="authenticated/investor-record/form" extends="master">
+	<put-attribute name="body" type="template" value="../authenticated/investor-record/form.jsp"/>
 	</definition>
 	
 </tiles-definitions>

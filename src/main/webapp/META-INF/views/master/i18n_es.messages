@@ -65,7 +65,8 @@ master.menu.authenticated.offer = Lista de Ofertas
 master.menu.authenticated.active-request.list = Lista peticiones
 master.menu.authenticated.challenge.list = Lista Retos
 
-
+master.menu.authenticated.company-record.list = Listar compañias
+master.menu.authenticated.investor-record.list = Listar inversores
 
 # master.menu.administrator ###################################################
 
