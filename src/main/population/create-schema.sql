@@ -81,12 +81,12 @@
         `activities` varchar(255),
         `ceo` varchar(255),
         `email` varchar(255),
-        `incorporated` bit,
+        `incorporated` bit not null,
         `link` varchar(255),
         `name` varchar(255),
         `phone` varchar(255),
         `sector` varchar(255),
-        `stars` integer,
+        `stars` integer not null,
         primary key (`id`)
     ) engine=InnoDB;
 

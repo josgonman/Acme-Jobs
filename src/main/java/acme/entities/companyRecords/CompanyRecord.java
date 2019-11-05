@@ -5,7 +5,6 @@ import javax.persistence.Entity;
 import javax.persistence.Transient;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Range;
@@ -46,14 +45,13 @@ public class CompanyRecord extends DomainEntity {
 	@Email
 	private String				email;
 
-	private Boolean				incorporated;
+	private boolean				incorporated;
 
 	@Transient
 	private String				nameIncorporated;
 
-	@NotNull
 	@Range(min = 0, max = 5)
-	private Integer				stars;
+	private int					stars;
 
 
 	@Transient
