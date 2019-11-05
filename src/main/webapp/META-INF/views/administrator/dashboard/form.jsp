@@ -16,7 +16,7 @@
 	<acme:form-money code="administrator.dashboard.form.label.avgMinActiveOffers" path="avgMinActiveOffers"/>
 	<acme:form-money code="administrator.dashboard.form.label.avgMaxActiveOffers" path="avgMaxActiveOffers"/>
 	<acme:form-double code="administrator.dashboard.form.label.standDevAO" path="standDevActiveOffers"/>
-			</acme:form>
+</acme:form>
 	 
 	<h2>
 	<acme:message code="administrator.dashboard.form.title.investor-record"/>
@@ -129,4 +129,3 @@
 	});
 	</script>
 	
-</acme:form>

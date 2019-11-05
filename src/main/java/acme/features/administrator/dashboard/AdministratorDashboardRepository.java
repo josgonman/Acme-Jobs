@@ -1,6 +1,9 @@
 
 package acme.features.administrator.dashboard;
 
+import java.util.Collection;
+import java.util.List;
+
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
@@ -44,13 +47,13 @@ public interface AdministratorDashboardRepository extends AbstractRepository {
 
 	@Query("select stddev(o.minMon.amount + o.maxMon.amount) from Offer o where datediff(current_date(), o.deadline)<0")
 	Double getStandDevOffer();
-	
+
 	@Query("select c.sector from InvestorRecord c group by c.sector")
 	Collection<String> getSectors();
-	
+
 	@Query("select count(i) from InvestorRecord i group by i.sector")
 	List<Integer> getTotalInvestorGroupBySector();
-	
+
 	@Query("select c.sector from CompanyRecord c group by c.sector")
 	List<Integer> getTotalCompanyGroupBySector();
 

@@ -46,13 +46,9 @@
     create table `banner` (
        `id` integer not null,
         `version` integer not null,
-<<<<<<< HEAD
         `card` varchar(255),
         `comercial` bit,
         `jingle` varchar(255),
-=======
-        `comercial` bit,
->>>>>>> chartTask
         `picture` varchar(255),
         `slogan` varchar(255),
         `url` varchar(255),
