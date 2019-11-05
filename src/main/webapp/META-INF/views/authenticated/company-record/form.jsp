@@ -5,7 +5,6 @@
 
 <acme:form readonly="true">
 	<acme:form-textbox code="authenticated.companyRecord.form.label.name" path="nameIncorporated" />
-	<acme:form-checkbox code="authenticated.companyRecord.form.label.incorporated" path="incorporated"/>
 	<acme:form-textbox code="authenticated.companyRecord.form.label.sector" path="sector" />
 	<acme:form-textbox code="authenticated.companyRecord.form.label.ceo" path="ceo" />
 	<acme:form-textbox code="authenticated.companyRecord.form.label.activities" path="activities" />
