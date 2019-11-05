@@ -39,7 +39,7 @@ public class CompanyRecord extends DomainEntity {
 	private String				link;
 
 	@NotBlank
-	@Pattern(regexp = "^([+][\\d]{0,3})?[ ]?([(][\\d]{0,4}[)])?[ ]?([\\d]{6,10}|[\\d]{3} [\\d]{2} [\\d]{2} [\\d]{2}|[\\d]{3} [\\d]{3} [\\d]{3})$")
+	@Pattern(regexp = "^([+][1-9][0-9]{0,2}[ ])?([(][\\d]{0,4}[)][ ])?([\\d]{6,10})$")
 	private String				phone;
 
 	@NotBlank
