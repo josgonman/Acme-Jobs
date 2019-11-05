@@ -2,7 +2,6 @@
 package acme.features.administrator.dashboard;
 
 import java.util.Collection;
-import java.util.List;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -45,16 +44,16 @@ public interface AdministratorDashboardRepository extends AbstractRepository {
 	@Query("select avg(o.maxMon.amount) from Offer o where datediff(current_date(), o.deadline)<0")
 	Double getAvgMaxMoney();
 
-	@Query("select stddev(o.minMon.amount + o.maxMon.amount) from Offer o where datediff(current_date(), o.deadline)<0")
-	Double getStandDevOffer();
+	@Query("select stddev(o.minMon.amount) from Offer o where datediff(current_date(), o.deadline)<0")
+	Double getStandDevOfferMin();
 
-	@Query("select c.sector from InvestorRecord c group by c.sector")
-	Collection<String> getSectors();
+	@Query("select stddev(o.maxMon.amount) from Offer o where datediff(current_date(), o.deadline)<0")
+	Double getStandDevOfferMax();
 
-	@Query("select count(i) from InvestorRecord i group by i.sector")
-	List<Integer> getTotalInvestorGroupBySector();
+	@Query("select i.sector, count(i) from InvestorRecord i group by i.sector")
+	Collection<Object[]> getTotalInvestorGroupBySector();
 
-	@Query("select c.sector from CompanyRecord c group by c.sector")
-	List<Integer> getTotalCompanyGroupBySector();
+	@Query("select c.sector, count(c) from CompanyRecord c group by c.sector")
+	Collection<Object[]> getTotalCompanyGroupBySector();
 
 }

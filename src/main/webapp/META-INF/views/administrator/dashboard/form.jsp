@@ -15,47 +15,38 @@
 	<acme:form-money code="administrator.dashboard.form.label.maxActiveOffers" path="maxActiveOffers"/>
 	<acme:form-money code="administrator.dashboard.form.label.avgMinActiveOffers" path="avgMinActiveOffers"/>
 	<acme:form-money code="administrator.dashboard.form.label.avgMaxActiveOffers" path="avgMaxActiveOffers"/>
-	<acme:form-double code="administrator.dashboard.form.label.standDevAO" path="standDevActiveOffers"/>
+	<acme:form-double code="administrator.dashboard.form.label.standDevAOmin" path="standDevActiveOffersMin"/>
+	<acme:form-double code="administrator.dashboard.form.label.standDevAOmax" path="standDevActiveOffersMax"/>
+
 </acme:form>
 	 
-	<h2>
+	<h2 align="center">
 	<acme:message code="administrator.dashboard.form.title.investor-record"/>
 	</h2>
 	
 	<div>
 		<canvas id="canvas"></canvas>
 	</div>
+	
 	<script type="text/javascript">
 	$(document).ready(function(){
 		var data = {
 			labels:[
-				<jstl:forEach var="sector" items="${sectors}"> 
-				<jstl:out value="${sector}"/>
+				<jstl:forEach var="iterator" items="${totalInvestorGroupBySector}"> 
+						"<jstl:out value="${iterator[0]}"/>",
 				</jstl:forEach>
-				
 			],
 			datasets:[
 				{
 				data:[
-				<jstl:forEach var="number" items="${totalInvestorGroupBySector}"> 
-				<jstl:out value="${totalInvestorGroupBySector}"/>
-				</jstl:forEach>
-				]
+						<jstl:forEach var="iterator" items="${totalInvestorGroupBySector}"> 
+							<jstl:out value="${iterator[1]}"/>,
+						</jstl:forEach>
+					]
 				}
 			]
 		};
 		var options = {
-			scales :{
-				yAxes :[
-					{
-						ticks:{
-							suggestedMin:0.0;
-							suggestedMax:20.0;
-						}
-					}
-				]		
-				
-			},
 			legend :{
 				display:false
 			}
@@ -73,18 +64,18 @@
 	});
 	</script>
 	
-	<h2>
+	<h2 align="center">
 	<acme:message code="administrator.dashboard.form.title.company-record"/>
 	</h2>
 	<div>
-		<canvas id="canvas"></canvas>
+		<canvas id="canvas02"></canvas>
 	</div>
 	<script type="text/javascript">
 	$(document).ready(function(){
 		var data = {
 			labels:[
-				<jstl:forEach var="sector" items="${sectors}"> 
-				<jstl:out value="${sectors}"/>
+				<jstl:forEach var="iterator" items="${totalCompanyGroupBySector}"> 
+				"<jstl:out value="${iterator[0]}"/>",
 				</jstl:forEach>
 
 				
@@ -92,8 +83,8 @@
 			datasets:[
 				{
 				data:[
-				<jstl:forEach var="number" items="${totalCompanyGroupBySector}"> 
-				<jstl:out value="${totalInvestorGroupBySector}"/>
+				<jstl:forEach var="iterator" items="${totalCompanyGroupBySector}"> 
+				<jstl:out value="${iterator[1]}"/>,
 				</jstl:forEach>
 
 				]
@@ -101,17 +92,16 @@
 			]
 		};
 		var options = {
-			scales :{
-				yAxes :[
+			scales : {
+				yAxes: [
 					{
-						ticks:{
-							suggestedMin:0.0;
-							suggestedMax:20.0;
+						ticks : {
+							suggestedMin: 0.0,
+							suggestedMax: 2.0
 						}
 					}
-				]		
-				
-			},
+				]
+			},	
 			legend :{
 				display:false
 			}
@@ -119,7 +109,7 @@
 		
 		var canvas,context;
 		
-		canvas = document.getElementById("canvas");
+		canvas = document.getElementById("canvas02");
 		context = canvas.getContext("2d");
 		new Chart(context, {
 			type:"bar",

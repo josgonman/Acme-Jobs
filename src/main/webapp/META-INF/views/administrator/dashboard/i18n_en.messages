@@ -9,6 +9,8 @@ administrator.dashboard.form.label.minActiveOffers = Minimum reward from Minimum
 administrator.dashboard.form.label.maxActiveOffers = Maximum reward from Maximum money from the range of Active Offers
 administrator.dashboard.form.label.avgMinActiveOffers = Average reward from Minimum money from the range of Active Offers
 administrator.dashboard.form.label.avgMaxActiveOffers = Average reward from Maximum money from the range of Active Offers
-administrator.dashboard.form.label.standDevAO = Standard deviation (minimum money + maximum money) from the range of Active Offers
+administrator.dashboard.form.label.standDevAOmin = Standard deviation (minimum money) from the range of Active Offers
+administrator.dashboard.form.label.standDevAOmax = Standard deviation (maximum money) from the range of Active Offers
+
 administrator.dashboard.form.title.investor-record= Number of the investors grouped by sectors:
 administrator.dashboard.form.title.company-record = Number of the companies grouped by sectors:
