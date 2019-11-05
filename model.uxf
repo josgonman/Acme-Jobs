@@ -452,9 +452,9 @@ Company Records
 +link: String{NotBlank, URL}
 +phone: String{NotBlank, Pattern(regexp)}
 +email: String{NotBlank, Email}
-+incorporated: String{NotBlank, Pattern(regexp)}
++incorporated: Boolean{}
 +stars: Integer{NotBlank, Range(0, 5)}
-</panel_attributes>
+/getIncorporated: String{Transient}</panel_attributes>
     <additional_attributes/>
   </element>
   <element>

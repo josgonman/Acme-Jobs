@@ -54,11 +54,16 @@ public class CompanyRecord extends DomainEntity {
 
 
 	@Transient
-	public void getIncorporated() {
+	public String getIncorporated() {
+		StringBuilder res = new StringBuilder();
+		res.append(this.incorporated);
+
 		if (this.incorporated == true) {
-			this.name.concat(", Inc");
+			res.append(", Inc");
 		} else {
-			this.name.concat(", LLC");
+			res.append(", LLC");
 		}
+
+		return res.toString();
 	}
 }
