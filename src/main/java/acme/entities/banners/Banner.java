@@ -3,7 +3,7 @@ package acme.entities.banners;
 import java.awt.Image;
 
 import javax.persistence.Entity;
-
+import javax.persistence.Transient;
 import javax.validation.constraints.NotBlank;
 
 import org.hibernate.validator.constraints.CreditCardNumber;
@@ -20,11 +20,11 @@ public class Banner extends DomainEntity {
 
 
 		private static final long	serialVersionUID	= 1L;
+		@NotBlank
+		@URL
+		private String				picture;
 
-	
-		private Image				picture;
-
-	
+		@NotBlank
 		private String				slogan;
 
 		@URL
@@ -34,11 +34,11 @@ public class Banner extends DomainEntity {
 		
 		private Boolean				comercial;
 		
-		
+		@Transient
 		@CreditCardNumber
 		private String 				card;
 		
-		
+		@Transient
 		private	String				jingle;
 	
 

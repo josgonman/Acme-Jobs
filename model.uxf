@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>6</zoom_level>
+  <zoom_level>10</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>444</x>
-      <y>258</y>
-      <w>144</w>
-      <h>36</h>
+      <x>740</x>
+      <y>240</y>
+      <w>240</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 UserRole
@@ -18,10 +18,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>462</x>
-      <y>288</y>
-      <w>60</w>
-      <h>66</h>
+      <x>770</x>
+      <y>290</y>
+      <w>100</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>80.0;10.0;10.0;90.0</additional_attributes>
@@ -29,10 +29,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>144</x>
-      <y>198</y>
-      <w>132</w>
-      <h>72</h>
+      <x>240</x>
+      <y>140</y>
+      <w>220</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Datatype&gt;&gt;
 UserIdentity
@@ -49,10 +49,10 @@ bg=orange
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>144</x>
-      <y>144</y>
-      <w>144</w>
-      <h>36</h>
+      <x>240</x>
+      <y>50</y>
+      <w>240</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>The full name catenates the 
 surname, a comma, and the name.
@@ -62,10 +62,10 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>204</x>
-      <y>174</y>
-      <w>18</w>
-      <h>36</h>
+      <x>340</x>
+      <y>100</y>
+      <w>30</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=..
 </panel_attributes>
@@ -74,10 +74,10 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>504</x>
-      <y>288</y>
-      <w>60</w>
-      <h>66</h>
+      <x>840</x>
+      <y>290</y>
+      <w>100</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;80.0;90.0</additional_attributes>
@@ -85,10 +85,10 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>654</x>
-      <y>264</y>
-      <w>60</w>
-      <h>36</h>
+      <x>1090</x>
+      <y>250</y>
+      <w>100</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Role&gt;&gt;
 Administrator
@@ -100,10 +100,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>654</x>
-      <y>216</y>
-      <w>60</w>
-      <h>36</h>
+      <x>1090</x>
+      <y>170</y>
+      <w>100</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Role&gt;&gt;
 Anonymous
@@ -115,10 +115,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>654</x>
-      <y>306</y>
-      <w>60</w>
-      <h>36</h>
+      <x>1090</x>
+      <y>320</y>
+      <w>100</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Role&gt;&gt;
 Authenticated
@@ -130,10 +130,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>582</x>
-      <y>240</y>
-      <w>84</w>
-      <h>48</h>
+      <x>970</x>
+      <y>210</y>
+      <w>140</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;60.0;120.0;10.0</additional_attributes>
@@ -141,10 +141,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>582</x>
-      <y>270</y>
-      <w>84</w>
-      <h>18</h>
+      <x>970</x>
+      <y>260</y>
+      <w>140</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;120.0;10.0</additional_attributes>
@@ -152,10 +152,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>582</x>
-      <y>270</y>
-      <w>84</w>
-      <h>54</h>
+      <x>970</x>
+      <y>260</y>
+      <w>140</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;120.0;70.0</additional_attributes>
@@ -163,10 +163,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>144</x>
-      <y>282</y>
-      <w>132</w>
-      <h>42</h>
+      <x>240</x>
+      <y>280</y>
+      <w>220</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Enum&gt;&gt;
 CustomCommand
@@ -179,10 +179,10 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>378</x>
-      <y>342</y>
-      <w>120</w>
-      <h>54</h>
+      <x>630</x>
+      <y>380</y>
+      <w>200</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Role&gt;&gt;
 Provider
@@ -194,10 +194,10 @@ Provider
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>516</x>
-      <y>342</y>
-      <w>126</w>
-      <h>54</h>
+      <x>860</x>
+      <y>380</y>
+      <w>210</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Role&gt;&gt;
 Consumer
@@ -210,9 +210,9 @@ Consumer
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>198</y>
-      <w>132</w>
-      <h>48</h>
+      <y>140</y>
+      <w>220</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Datatype&gt;&gt;
 Money
@@ -227,9 +227,9 @@ bg=yellow</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>258</y>
-      <w>132</w>
-      <h>78</h>
+      <y>240</y>
+      <w>220</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Enum&gt;&gt;
 BasicCommand
@@ -247,9 +247,9 @@ bg=yellow</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>348</y>
-      <w>132</w>
-      <h>54</h>
+      <y>390</y>
+      <w>220</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Enum&gt;&gt;
 HttpMethod
@@ -263,10 +263,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>408</x>
-      <y>114</y>
-      <w>204</w>
-      <h>78</h>
+      <x>680</x>
+      <y>0</y>
+      <w>340</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 UserAccount
@@ -285,10 +285,10 @@ UserAccount
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>510</x>
-      <y>186</y>
-      <w>42</w>
-      <h>84</h>
+      <x>850</x>
+      <y>120</y>
+      <w>70</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>lt=&lt;-&gt;
 m1=1
@@ -300,9 +300,9 @@ has v</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>438</y>
-      <w>192</w>
-      <h>102</h>
+      <y>540</y>
+      <w>320</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Shout
@@ -316,9 +316,9 @@ Shout
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>558</y>
-      <w>192</w>
-      <h>102</h>
+      <y>740</y>
+      <w>320</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Offer2
@@ -332,10 +332,10 @@ Offer2
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>204</x>
-      <y>438</y>
-      <w>192</w>
-      <h>102</h>
+      <x>340</x>
+      <y>540</y>
+      <w>320</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Book
@@ -349,10 +349,10 @@ Book
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>204</x>
-      <y>558</y>
-      <w>192</w>
-      <h>102</h>
+      <x>340</x>
+      <y>740</y>
+      <w>320</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Player
@@ -366,10 +366,10 @@ Player
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>408</x>
-      <y>438</y>
-      <w>186</w>
-      <h>102</h>
+      <x>680</x>
+      <y>540</y>
+      <w>310</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Talk
@@ -382,10 +382,10 @@ Talk
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>408</x>
-      <y>558</y>
-      <w>186</w>
-      <h>102</h>
+      <x>680</x>
+      <y>740</y>
+      <w>310</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Announcement
@@ -399,10 +399,10 @@ Announcement
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>606</x>
-      <y>438</y>
-      <w>204</w>
-      <h>102</h>
+      <x>1010</x>
+      <y>540</y>
+      <w>340</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Request
@@ -418,10 +418,10 @@ Request
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>606</x>
-      <y>558</y>
-      <w>198</w>
-      <h>102</h>
+      <x>1010</x>
+      <y>740</y>
+      <w>330</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Offer
@@ -437,13 +437,13 @@ Offer
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>828</x>
-      <y>432</y>
-      <w>162</w>
-      <h>114</h>
+      <x>1380</x>
+      <y>530</y>
+      <w>270</w>
+      <h>190</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
-Company Records
+CompanyRecord
 --
 +name:String{NotBlank}
 +sector: String{NotBlank}
@@ -460,13 +460,13 @@ Company Records
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>834</x>
-      <y>558</y>
-      <w>156</w>
-      <h>102</h>
+      <x>1390</x>
+      <y>740</y>
+      <w>260</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
-InvestorRecords
+InvestorRecord
 --
 +name:String{NotBlank}
 +sector: String{NotBlank}
@@ -478,15 +478,15 @@ InvestorRecords
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>816</x>
-      <y>186</y>
-      <w>186</w>
-      <h>102</h>
+      <x>1360</x>
+      <y>120</y>
+      <w>310</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Banner
 --
-+picture:Image
++picture: String{URL, NotBlank}
 +slogan: String{NotBlank}
 +url: String{NotBlank,URL}
 +comercial: Boolean
@@ -498,13 +498,13 @@ Banner
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>816</x>
-      <y>300</y>
-      <w>186</w>
-      <h>102</h>
+      <x>1360</x>
+      <y>310</y>
+      <w>310</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
-Challenges
+Challenge
 --
 +title:String{NotBlank}
 +deadline: Date{Temporal(TIMESTAMP),Future}

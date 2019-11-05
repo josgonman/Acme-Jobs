@@ -10,3 +10,6 @@ administrator.dashboard.form.label.maxActiveOffers = Recompensa máximo del dine
 administrator.dashboard.form.label.avgMinActiveOffers = Recompensa media del dinero mínimo del rango de las ofertas activas:
 administrator.dashboard.form.label.avgMaxActiveOffers = Recompensa media del dinero máximo del rango de las ofertas activas:
 administrator.dashboard.form.label.standDevAO = Desviación típica (dinero mínimo + dinero máximo del rango) de las ofertas activas:
+
+administrator.dashboard.form.title.investor-record = Número de inversores por sector:
+administrator.dashboard.form.title.company-record = Número de empresas por sector:

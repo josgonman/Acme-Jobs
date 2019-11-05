@@ -2,6 +2,8 @@
 package acme.forms;
 
 import java.io.Serializable;
+import java.util.Collection;
+import java.util.List;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -26,5 +28,9 @@ public class Dashboard implements Serializable {
 	Double						avgMinActiveOffers;
 	Double						avgMaxActiveOffers;
 	Double						standDevActiveOffers;
-
+	List<Integer>				totalInvestorGroupBySector;
+	List<Integer>				totalCompanyGroupBySector;
+	Collection<String>			sectors;
+	
+	
 }

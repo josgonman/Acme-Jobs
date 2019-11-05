@@ -29,5 +29,7 @@ public class InvestorRecord extends DomainEntity {
 	
 	@Range(min = 0, max = 5)
 	private Integer				stars;
+	
+	
 
 }
