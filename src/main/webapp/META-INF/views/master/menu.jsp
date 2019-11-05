@@ -68,6 +68,10 @@
             <acme:menu-suboption code="master.menu.authenticated.active-request.list" action="/authenticated/active-request/list"/>
             <acme:menu-separator/>
             <acme:menu-suboption code="master.menu.authenticated.challenge.list" action="/authenticated/challenge/list"/>
+            <acme:menu-separator/>
+            <acme:menu-suboption code="master.menu.authenticated.companyRecord.list" action="/authenticated/company-record/list"/>
+            <acme:menu-separator/>
+            <acme:menu-suboption code="master.menu.authenticated.investor-record.list" action="/authenticated/investor-record/list"/>
             
             
 		</acme:menu-option>
