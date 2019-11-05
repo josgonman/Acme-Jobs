@@ -30,7 +30,7 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		assert entity != null;
 
 		request.unbind(entity, model, "totalAnnouncements", "totalCompanies", "totalInvestor", "minActiveRequest", "maxActiveRequest", "avgActiveRequest", "standDevActiveResquest", "minActiveOffers", "maxActiveOffers", "avgMinActiveOffers",
-			"avgMaxActiveOffers", "standDevActiveOffers");
+			"avgMaxActiveOffers", "standDevActiveOffers", "totalInvestorGroupBySector", "sectors");
 	}
 
 	@Override
@@ -51,7 +51,8 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		result.setAvgMinActiveOffers(this.repository.getAvgMinMoney());
 		result.setAvgMaxActiveOffers(this.repository.getAvgMaxMoney());
 		result.setStandDevActiveOffers(this.repository.getStandDevOffer());
-
+		result.setTotalInvestorGroupBySector(this.repository.getTotalInvestorGroupBySector());
+		result.setSectors(this.repository.getSectors());
 		return result;
 	}
 
