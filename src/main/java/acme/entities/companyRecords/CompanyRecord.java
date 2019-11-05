@@ -48,15 +48,18 @@ public class CompanyRecord extends DomainEntity {
 
 	private Boolean				incorporated;
 
+	@Transient
+	private String				nameIncorporated;
+
 	@NotNull
 	@Range(min = 0, max = 5)
 	private Integer				stars;
 
 
 	@Transient
-	public String getIncorporated() {
+	public String getNameIncorporated() {
 		StringBuilder res = new StringBuilder();
-		res.append(this.incorporated);
+		res.append(this.name);
 
 		if (this.incorporated == true) {
 			res.append(", Inc");
