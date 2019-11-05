@@ -179,7 +179,7 @@
 		<property name="ceo" value="Tim Cook"/>
 		<property name="activities" value="Doing new technology devices"/>
 		<property name="link" value="https://www.apple.com/"/>
-		<property name="phone" value="900 812 703"/>
+		<property name="phone" value="900812703"/>
 		<property name="email" value="apple@outlook.com"/>
 		<property name="incorporated" value="true"/>
 		<property name="stars" value="5"/>
@@ -191,7 +191,7 @@
 		<property name="ceo" value="Alberto Joya"/>
 		<property name="activities" value="Fixing and building PCs"/>
 		<property name="link" value="https://www.hardwaremedia.es/"/>
-		<property name="phone" value="954 12 55 68"/>
+		<property name="phone" value="954125568"/>
 		<property name="email" value="hardwaremediaHM@gmail.com"/>
 		<property name="incorporated" value="false"/>
 		<property name="stars" value="3"/>
