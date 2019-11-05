@@ -203,7 +203,7 @@
 		<property name="ceo" value="Ma Huateng"/>
 		<property name="activities" value="Providing products and services on the internet"/>
 		<property name="link" value="http://www.tencent.com/en-us/index.html"/>
-		<property name="phone" value="+011 12345678"/>
+		<property name="phone" value="+111 12345678"/>
 		<property name="email" value="tencent@gmail.com"/>
 		<property name="incorporated" value="true"/>
 		<property name="stars" value="2"/>
