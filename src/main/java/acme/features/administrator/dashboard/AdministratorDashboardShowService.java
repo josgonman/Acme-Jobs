@@ -51,8 +51,7 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		result.setAvgMinActiveOffers(this.repository.getAvgMinMoney());
 		result.setAvgMaxActiveOffers(this.repository.getAvgMaxMoney());
 		result.setStandDevActiveOffers(this.repository.getStandDevOffer());
-		result.setTotalInvestorGroupBySector(this.repository.getTotalInvestorGroupBySector());
-		result.setSectors(this.repository.getSectors());
+
 		return result;
 	}
 

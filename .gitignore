@@ -29,3 +29,7 @@ nbdist/
 mvnw
 
 mvnw\.cmd
+
+src/main/java/acme/features/administrator/dashboard/AdministratorDashboardRepository.java
+
+src/main/java/acme/features/administrator/dashboard/AdministratorDashboardShowService.java

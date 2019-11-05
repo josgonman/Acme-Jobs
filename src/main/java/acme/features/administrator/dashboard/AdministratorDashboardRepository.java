@@ -1,9 +1,6 @@
 
 package acme.features.administrator.dashboard;
 
-import java.util.Collection;
-import java.util.List;
-
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
@@ -56,7 +53,5 @@ public interface AdministratorDashboardRepository extends AbstractRepository {
 	
 	@Query("select c.sector from CompanyRecord c group by c.sector")
 	List<Integer> getTotalCompanyGroupBySector();
-
-	
 
 }
