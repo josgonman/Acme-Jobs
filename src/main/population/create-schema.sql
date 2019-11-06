@@ -46,9 +46,6 @@
     create table `banner` (
        `id` integer not null,
         `version` integer not null,
-        `card` varchar(255),
-        `comercial` bit,
-        `jingle` varchar(255),
         `picture` varchar(255),
         `slogan` varchar(255),
         `url` varchar(255),
@@ -79,6 +76,16 @@
         `silver_reward_amount` double precision,
         `silver_reward_currency` varchar(255),
         `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `comercial_banner` (
+       `id` integer not null,
+        `version` integer not null,
+        `picture` varchar(255),
+        `slogan` varchar(255),
+        `url` varchar(255),
+        `card` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -113,6 +120,16 @@
         `name` varchar(255),
         `sector` varchar(255),
         `stars` integer,
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `no_comercial_banner` (
+       `id` integer not null,
+        `version` integer not null,
+        `picture` varchar(255),
+        `slogan` varchar(255),
+        `url` varchar(255),
+        `jingle` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 

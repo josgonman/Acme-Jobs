@@ -29,11 +29,4 @@ public class Banner extends DomainEntity {
 	@NotBlank
 	private String				url;
 
-	private Boolean				comercial;
-
-	@CreditCardNumber
-	private String				card;
-
-	private String				jingle;
-
 }

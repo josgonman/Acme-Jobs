@@ -296,6 +296,27 @@
 		<property name="bronzeReward" value="500€"/>
 		
 	</bean>
+		<bean id="comercialBanner01" class="acme.entities.banners.ComercialBanner">
+				<property name="picture" value="https://imgur.com/gallery/eTGPq"/>
+		
+				<property name="slogan" value="GUAU-MIAU"/>
+		
+				<property name="url" value="https://imgur.com/gallery/eTGPq"/>
+		
+				<property name="card" value="4012888888881881"/>
+	
+		</bean>
+	
+	<bean id="noComercialBanner01" class="acme.entities.banners.NoComercialBanner">
+				<property name="picture" value="https://imgur.com/gallery/eTGPq"/>
+		
+				<property name="slogan" value="GUAU-MIAU"/>
+		
+				<property name="url" value="https://imgur.com/gallery/eTGPq"/>
+		
+				<property name="jingle" value="Test"/>
+	
+		</bean>
 	
 	
 	
