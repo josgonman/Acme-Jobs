@@ -22,7 +22,7 @@
 	<version>1.0</version>
 	<packaging>war</packaging>
 
-	<name>Acme-Jobs</name>
+	<name>Acme-Jobs, INC</name>
 	<description>This is the Acme Job project of subject Design &amp; Testing.</description>
 
 	<parent>
