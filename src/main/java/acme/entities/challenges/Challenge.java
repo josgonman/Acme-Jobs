@@ -6,11 +6,9 @@ import java.util.Date;
 import javax.persistence.Entity;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
-import javax.persistence.Transient;
 import javax.validation.Valid;
 import javax.validation.constraints.Future;
 import javax.validation.constraints.NotBlank;
-
 
 import acme.framework.datatypes.Money;
 import acme.framework.entities.DomainEntity;
@@ -22,31 +20,28 @@ import lombok.Setter;
 @Setter
 public class Challenge extends DomainEntity {
 
-	private static final long serialVersionUID = 1L;
+	private static final long	serialVersionUID	= 1L;
 
 	@NotBlank
-	private String title;
+	private String				title;
 
 	@Temporal(TemporalType.TIMESTAMP)
 	@Future
-	private Date deadline;
+	private Date				deadline;
 
 	@NotBlank
-	private String description;
+	private String				description;
 	@NotBlank
-	private String goalGoldName;
+	private String				goalGoldName;
 	@NotBlank
-	private String goalSilverName;
+	private String				goalSilverName;
 	@NotBlank
-	private String goalBronzeName;
+	private String				goalBronzeName;
 	@Valid
-	private Money goldReward;
+	private Money				goldReward;
 	@Valid
-	private Money silverReward;
+	private Money				silverReward;
 	@Valid
-	private Money bronzeReward;
-
-	
-	
+	private Money				bronzeReward;
 
 }
