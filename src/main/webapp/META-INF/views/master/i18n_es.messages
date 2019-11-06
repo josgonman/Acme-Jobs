@@ -35,8 +35,8 @@ master.menu.anonymous.favourite-linkC = Enlace al link favorito de Jose Manuel G
 master.menu.anonymous.favourite-linkD = Enlace al link favorito de Miguel Ponce Melero
 
  
-master.menu.anonymous.talklist = Fuentes Boletín: Lista Conversaciones
-master.menu.anonymous.talk = Fuentes: Boletín: Crear conversación
+master.menu.anonymous.talklist = Fuentes Boletín: Listar Conversaciones
+master.menu.anonymous.talk = Fuentes: Boletín: Crear una conversación
 
 master.menu.anonymous.shout = ¡Gritar!
 master.menu.anonymous.shoutlist = Lista de Gritos
@@ -54,8 +54,8 @@ master.menu.anonymous.announcement = Lista de anuncios
 
 master.menu.anonymous.investor-recordList = Historial de Inversores
 
-master.menu.anonymous.companyRecordList = Lista Compañias
-master.menu.anonymous.companyTopRecordList =Lista Mejores Compañias
+master.menu.anonymous.companyRecordList = Listar Compañias
+master.menu.anonymous.companyTopRecordList =Lista de Mejores Compañias
 
 # master.menu.authenticated ###################################################
 
@@ -75,6 +75,7 @@ master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
 master.menu.administrator.announcement = Lista de anuncios
 master.menu.administrator.dashboard = Tablero de control
+master.menu.administrator.configuration = Configuración
 
 # master.menu.provider ########################################################
 

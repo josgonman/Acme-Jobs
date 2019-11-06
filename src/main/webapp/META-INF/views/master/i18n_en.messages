@@ -74,6 +74,7 @@ master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
 master.menu.administrator.announcement = List Announcements
 master.menu.administrator.dashboard = Dashboard
+master.menu.administrator.configuration = Configuration
 
 # master.menu.provider ########################################################
 

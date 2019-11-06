@@ -19,6 +19,14 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		 <acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
+		 	<acme:menu-suboption code="master.menu.anonymous.announcement" action="/anonymous/announcement/list"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.investor-recordList" action="/anonymous/investor-record/list"/>
+            <acme:menu-suboption code="master.menu.anonymous.investor-top-recordList" action="/anonymous/investor-top-record/list"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.companyRecordList" action="/anonymous/company-record/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.companyTopRecordList" action="/anonymous/company-top-record/list"/>
+			<acme:menu-separator/>
 		<!-- master.menu.anonymous.favourite-link Link Favorito Alejandro-->
 			<acme:menu-suboption code="master.menu.anonymous.favourite-linkA" action="https://github.com/alefuegom"/>
 		<!-- master.menu.anonymous.favourite-link Link Favorito Pedro-->
@@ -51,13 +59,8 @@
 			<acme:menu-suboption code="master.menu.anonymous.book" action="/anonymous/book/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.bookList" action="/anonymous/book/list"/>
             <acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.anonymous.announcement" action="/anonymous/announcement/list"/>
-			<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.anonymous.investor-recordList" action="/anonymous/investor-record/list"/>
-            <acme:menu-suboption code="master.menu.anonymous.investor-top-recordList" action="/anonymous/investor-top-record/list"/>
-		<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.anonymous.companyRecordList" action="/anonymous/company-record/list"/>
-			<acme:menu-suboption code="master.menu.anonymous.companyTopRecordList" action="/anonymous/company-top-record/list"/>	
+			
+				
 	</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.authenticated" access="isAuthenticated()">
@@ -82,6 +85,8 @@
 			<acme:menu-suboption code="master.menu.administrator.announcement" action="/administrator/announcement/list"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.dashboard" action="/administrator/dashboard/show"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.administrator.configuration" action="/administrator/configuration/show"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
 		</acme:menu-option>
