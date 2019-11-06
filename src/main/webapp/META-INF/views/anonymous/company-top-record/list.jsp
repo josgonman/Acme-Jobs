@@ -5,7 +5,7 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:list >
-	<acme:list-column code="anonymous.companyTopRecord.list.label.name" path="name" width="10%"/>
+	<acme:list-column code="anonymous.companyTopRecord.list.label.name" path="nameIncorporated" width="10%"/>
 	<acme:list-column code="anonymous.companyTopRecord.list.label.sector" path="sector" width="10%"/>
 	<acme:list-column code="anonymous.companyTopRecord.list.label.ceo" path="ceo" width="10%"/>
 	<acme:list-column code="anonymous.companyTopRecord.list.label.activities" path="activities" width="10%"/>

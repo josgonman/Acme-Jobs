@@ -120,7 +120,7 @@
 	
 	<bean id="announcement01" class="acme.entities.announcements.Announcement">
 		<property name="title" value="Sample announcement 01"/>
-		<property name="moment" value="2019/10/10 10:35"/>
+		<property name="moment" value="2019/11/05 10:35"/>
 		<property name="link"><null/></property>
 		<property name="description" value="This is the description of a sample announcement"/>
 	</bean>
@@ -144,7 +144,7 @@
 	<bean id="Offer01" class="acme.entities.offers.Offer">
 		<property name="title" value="Sample Offer 01"/>
 		<property name="moment" value="2019/10/15 15:30"/>
-		<property name="deadline" value="2019/11/23	15:30"/>
+		<property name="deadline" value="2020/11/23	15:30"/>
 		<property name="description" value="Sample of description Offer 01"/>
 		<property name="minMon" value="€900.00"/>
 		<property name="maxMon" value="€1000.00"/>
@@ -154,7 +154,7 @@
 	<bean id="Offer02" class="acme.entities.offers.Offer">
 		<property name="title" value="Ejemplo Oferta 2"/>
 		<property name="moment" value="2019/10/08 00:30"/>
-		<property name="deadline" value="2019/11/08 05:30"/>
+		<property name="deadline" value="2020/11/08 05:30"/>
 		<property name="description" value="Ejemplo de descripción del Offer 02"/>
 		<property name="minMon" value="€500.00"/>
 		<property name="maxMon" value="€1300.00"/>
@@ -164,7 +164,7 @@
 	<bean id="Offer03" class="acme.entities.offers.Offer">
 		<property name="title" value="Sample Offer 03"/>
 		<property name="moment" value="2019/09/01 15:30"/>
-		<property name="deadline" value="2019/12/20	15:30"/>
+		<property name="deadline" value="2020/12/20	15:30"/>
 		<property name="description" value="Sample of description Offer 03"/>
 		<property name="minMon" value="€800.00"/>
 		<property name="maxMon" value="€1200.00"/>
@@ -221,7 +221,7 @@
 	<bean id="request02" class="acme.entities.activerequests.ActiveRequest">
 		<property name="title" value="We are making the second request"/>
 		<property name="moment" value="2019/01/07 12:00"/>
-		<property name="deadline" value="2020/01/07 02:00"/>
+		<property name="deadline" value="2020/04/07 02:00"/>
 		<property name="description" value="It is used to retest the app"/>
 		<property name="reward" value= "900€"/>
 		<property name="ticker" value="RAAAA-00002"/>
@@ -231,7 +231,7 @@
 	<bean id="request03" class="acme.entities.activerequests.ActiveRequest">
 		<property name="title" value="We are making the third request"/>
 		<property name="moment" value="2019/07/07 15:00"/>
-		<property name="deadline" value="2020/01/01 00:00"/>
+		<property name="deadline" value="2020/03/01 00:00"/>
 		<property name="description" value="It is used to re-retest the app"/>
 		<property name="reward" value= "1000€"/>
 		<property name="ticker" value="RAAAA-00003"/>

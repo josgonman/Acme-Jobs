@@ -2,10 +2,8 @@
 package acme.entities.banners;
 
 import javax.persistence.Entity;
-
 import javax.validation.constraints.NotBlank;
 
-import org.hibernate.validator.constraints.CreditCardNumber;
 import org.hibernate.validator.constraints.URL;
 
 import acme.framework.entities.DomainEntity;

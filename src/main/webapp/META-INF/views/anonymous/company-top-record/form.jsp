@@ -4,8 +4,7 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form readonly="true">
-	<acme:form-textbox code="anonymous.companyTopRecord.form.label.name" path="name" />
-	<acme:form-checkbox code="anonymous.companyTopRecord.form.label.incorporated" path="incorporated"/>
+	<acme:form-textbox code="anonymous.companyTopRecord.form.label.name" path="nameIncorporated" />
 	<acme:form-textbox code="anonymous.companyTopRecord.form.label.sector" path="sector" />
 	<acme:form-textbox code="anonymous.companyTopRecord.form.label.ceo" path="ceo" />
 	<acme:form-textbox code="anonymous.companyTopRecord.form.label.activities" path="activities" />
